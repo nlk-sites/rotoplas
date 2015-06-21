@@ -77,6 +77,16 @@ ul.navbar-nav li a{
 	font-weight: 600;
 }
 
+.navbar-default .navbar-nav > li
+{
+	background: url("../images/menu_border.png") no-repeat right 15px transparent;
+}
+
+.navbar-default .navbar-nav > li:last-child
+{
+	background: none;	
+}
+
 .navbar-default .navbar-nav > li > a {
     color: #00AEEF;
 }
@@ -104,6 +114,7 @@ ul.navbar-nav li.homeicon a{
 	position: relative;
 	bottom: 15px;
 }
+
 
 ul.navbar-nav li.aboutusicon a{
 	background: transparent url("../images/abouticon.png") no-repeat scroll center center;
