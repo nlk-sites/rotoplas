@@ -36,34 +36,20 @@ get_header(); ?>
                 <div class="sidebar">
                     <div class="col-xs-12">
                       <h1 class="newsicon">NEWS</h1>
-                    </div>
-                  <div class="row eachcontent">
-                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
-                      <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/newsimage1.jpg">
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7">
-                        <p>Rotoplas conducts research and develops new technologies through our Center for Research and Development. </p>
-                        <button type="button" class="btn newsbutton">View more</button>
-                    </div>
-                  </div>
-                  <div class="row eachcontent">
-                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
-                        <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/newsimage2.jpg">
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7">
-                        <p>Our training programs provide a better quality of life for construction and professional workers.</p>
-                        <button type="button" class="btn newsbutton">View more</button>
+                    </div> 
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-12">
+                      <div class="row eachcontent">
+                        <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
+                          <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/newsimage1.jpg">
+                        </div>
+                        <div class="col-xs-12 col-sm-7 col-md-7">
+                            <p>Rotoplas conducts research and develops new technologies through our Center for Research and Development. </p>
+                            <button type="button" class="btn newsbutton">View more</button>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="row content">
-                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
-                        <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/newsimage3.jpg">
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7">
-                        <p>Rotoplas creates different water solutions products, built to help those with lower incomes.</p>
-                        <button type="button" class="btn newsbutton">View more</button>
-                    </div>
-                   </div> 
                 </div>
             </div>
         
