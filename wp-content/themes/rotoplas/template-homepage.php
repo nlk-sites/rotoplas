@@ -16,7 +16,7 @@ get_header(); ?>
 	<section class="wrapper content">
       <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-8">
+            <div class="col-xs-12 col-sm-12 col-md-8">
               <div class="row">
               <div class="col-xs-12">
                 <ul class="servicequality">
@@ -27,7 +27,9 @@ get_header(); ?>
               </div>
               </div>
               <div class="row">
-                  <?php putRevSlider( "homeslider" ) ?>
+                <div class="col-xs-12">
+                    <?php putRevSlider( "homeslider" ) ?>
+                </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
