@@ -110,30 +110,30 @@ get_header(); ?>
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <div class="sidebar">
                   <div class="row producteachcontent1">
-                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
+                    <div class="col-xs-5 col-sm-5 col-md-5 imagecontent">
                       <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/literaturesidebarimage1.jpg">
                     </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7">
+                    <div class="col-xs-7 col-sm-7 col-md-7">
                         <h2>200 Gallon Storage Tank</h2> 
                         <p>Lorem Ipsum es simplemente el texto de relleno de</p>
                         <button type="button" class="btn productbutton">View more</button>
                     </div>
                   </div>
                   <div class="row productsidebarcontent">
-                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
+                    <div class="col-xs-5 col-sm-5 col-md-5 imagecontent">
                         <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/literaturesidebarimage2.jpg">
                     </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7">
+                    <div class="col-xs-7 col-sm-7 col-md-7">
                         <h2>400 Gallon Storage Tank</h2>
                         <p>Lorem Ipsum es simplemente el texto de relleno de</p>
                         <button type="button" class="btn productbutton">View more</button>
                     </div>
                   </div>
                   <div class="row productsidebarlastcontent">
-                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
+                    <div class="col-xs-5 col-sm-5 col-md-5 imagecontent">
                         <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/literaturesidebarimage3.jpg">
                     </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7">
+                    <div class="col-xs-7 col-sm-7 col-md-7">
                         <h2>500 Gallon Storage Tank</h2>
                         <p>Lorem Ipsum es simplemente el texto de relleno de</p>
                         <button type="button" class="btn productbutton">View more</button>
