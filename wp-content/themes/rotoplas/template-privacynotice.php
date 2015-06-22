@@ -58,28 +58,28 @@ get_header(); ?>
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <div class="sidebar">
                   <div class="row contacteachcontent1">
-                    <div class="col-xs-5 col-sm-5 col-md-5 imagecontent">
+                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
                       <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/facebookimage.jpg">
                     </div>
-                    <div class="col-xs-7 col-sm-7 col-md-7">
+                    <div class="col-xs-12 col-sm-7 col-md-7">
                         <p>Rotoplas conducts research and develops new technologies through our Center for Research and Development. </p>
                         <button type="button" class="btn newsbutton">View more</button>
                     </div>
                   </div>
                   <div class="row eachcontent">
-                    <div class="col-xs-5 col-sm-5 col-md-5 imagecontent">
+                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
                         <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/twitterimage.jpg">
                     </div>
-                    <div class="col-xs-7 col-sm-7 col-md-7">
+                    <div class="col-xs-12 col-sm-7 col-md-7">
                         <p>Our training programs provide a better quality of life for construction and professional workers.</p>
                         <button type="button" class="btn newsbutton">View more</button>
                     </div>
                   </div>
                   <div class="row content">
-                    <div class="col-xs-5 col-sm-5 col-md-5 imagecontent">
+                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
                         <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/usamapimage.jpg">
                     </div>
-                    <div class="col-xs-7 col-sm-7 col-md-7">
+                    <div class="col-xs-12 col-sm-7 col-md-7">
                         <p>Rotoplas creates different water solutions products, built to help those with lower incomes.</p>
                         <button type="button" class="btn newsbutton">View more</button>
                     </div>
