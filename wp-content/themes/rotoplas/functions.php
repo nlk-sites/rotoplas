@@ -169,3 +169,14 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+//Script-tac-ulous -> All the Sidr JS and CSS files
+function themeprefix_scripts_styles_sidr() {
+	wp_enqueue_script ( 'sidrjs' , get_template_directory_uri() . '/js/jquery.sidr.min.js', array( 'jquery' ), '1', true );
+	wp_enqueue_script ( 'sidrinit' , get_template_directory_uri() . '/js/sidr-init.js', array( 'sidrjs' ), '1', true );
+
+	wp_enqueue_style ( 'sidrcss-dark' , get_template_directory_uri() . '/css/jquery.sidr.dark.css', '', '1', 'all' );
+	//wp_enqueue_style ( 'sidrcss-light' , get_stylesheet_directory_uri() . '/css/jquery.sidr.light.css', '', '1', 'all' );
+
+}
+add_action( 'wp_enqueue_scripts', 'themeprefix_scripts_styles_sidr' ); 

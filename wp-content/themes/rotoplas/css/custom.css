@@ -256,7 +256,7 @@ ul.servicequality li.bullet{
 }
 
 .sidebar{
-	margin-top: 27px;
+	margin-top: 12px;
 }
 
 .sidebar h1{
@@ -297,7 +297,7 @@ h1.newsicon{
 .eachcontent{
 	border-bottom: 1px solid #00aae5;
 	margin: 0px 0px 10px;
-	padding: 22px 0px 10px;
+	padding: 10px 0px;
 }
 
 .newstitle{
@@ -772,7 +772,7 @@ label{
 .contacteachcontent1{
 	border-bottom: 1px solid #00AAE5;
 	margin: 0px 0px 10px;
-	padding: 55px 0px 12px;
+	padding: 72px 0px 12px;
 }
 
 /*Customer Service Page*/
@@ -1099,7 +1099,7 @@ ul.tablistlastcontent li{
 .producteachcontent1 {
     border-bottom: 1px solid #00AAE5;
     margin: 0px 0px 10px 0px;
-    padding: 72px 0px 12px;
+    padding: 92px 0px 12px;
 }
 
 .groupproduct{
@@ -1365,7 +1365,7 @@ ul.tablistlastcontent li{
 	}
 
 	.content {
-	    margin: 0px 15px;
+	    margin: 0px 0px 10px;
 	    padding: 20px 0px;
 	}
 
@@ -1421,4 +1421,14 @@ ul.tablistlastcontent li{
 	.warranty p{
 		padding: 0px 25px;
 	}
+}
+
+#mobile-icon {
+    display: none;
+}
+ 
+@media only screen and (max-width: 800px){/*change to desired width*/
+    #mobile-icon {
+        display: block;
+    }
 }
