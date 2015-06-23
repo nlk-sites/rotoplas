@@ -1344,6 +1344,21 @@ ul.tablistlastcontent li{
 	outline: none;		
 }
 
+/*Mobile USA Page*/
+.wrapper.mobilecontent{
+	background: #0e1336;
+}
+
+.wrapper.mapcontent{
+	background: url('../images/mapcontentbg.jpg') no-repeat;
+	min-height: 607px;
+	xbackground-size: cover;
+}
+
+.wrapper.mapcontent img{
+	margin-top: 80px;
+}
+
 @media (min-width:768px)and (max-width:991px){
 	
 	.sidebar .eachNews .eachcontent
