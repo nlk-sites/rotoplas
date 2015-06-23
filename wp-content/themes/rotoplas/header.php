@@ -47,43 +47,49 @@
 	});
 </script>
 <body <?php body_class(); ?>>
-<div data-role="panel" id="sidemenumobile" data-position="right" data-display="overlay">
-    <!-- panel content goes here -->
-</div>
- <section class="wrapper menucontainer">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-6 col-sm-6 col-md-2">
-            <h1 class="logo"><a href="<?php bloginfo('url');?>">Rotoplas</a></h1>
-          </div>
-          <div class="col-xs-12 col-sm-10 col-md-10 hidden-xs hidden-sm">
-	          <nav class="navbar navbar-default">          
-	          <div class="container-fluid">
-	            <!-- Brand and toggle get grouped for better mobile display -->
-	            <div class="navbar-header">
-	              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-	                <span class="sr-only">Toggle navigation</span>
-	                <span class="icon-bar"></span>
-	                <span class="icon-bar"></span>
-	                <span class="icon-bar"></span>
-	              </button>
-	            </div>
-	
-	            <!-- Collect the nav links, forms, and other content for toggling -->
-	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	              <?php wp_nav_menu( array( 'menu_class'=>'nav navbar-nav','theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-	              </div><!-- /.navbar-collapse -->
-	            </div><!-- /.container-fluid -->
-	          </nav>
-          <span class="logo-circle"></span>
-        </div>
-        <div class="col-xs-6 col-sm-6 visible-xs-block visible-sm-block">
-        	<div class="headicoblock">
-        		<div class="logo-circle-mb"></div>
-        		<div class="menu-ico-mb"><a href="#sidemenumobile" id="mobilemenuo">MENU</a></div>
-        	</div>
-        </div> 
-      </div>
-      </div>
-    </section>
+<div data-role="page"> 
+	<div data-role="panel" id="sidemenumobile" data-position="right" data-display="overlay">
+	    <!-- panel content goes here -->
+	    <div class="mobilemenucontent">
+	    	<h3>MENU</h3>
+	    	<?php wp_nav_menu( array( 'menu_class'=>'','theme_location' => 'mobilemenu', 'menu_id' => 'mobilemenu', 'container' => '', 'container_class' => '', 'container_id'  => '') ); ?>	
+	    </div>
+	    
+	 </div>
+	 <section data-role="header" class="wrapper menucontainer">
+	      <div class="container">
+	        <div class="row">
+	          <div class="col-xs-6 col-sm-6 col-md-2">
+	            <h1 class="logo"><a href="<?php bloginfo('url');?>">Rotoplas</a></h1>
+	          </div>
+	          <div class="col-xs-12 col-sm-10 col-md-10 hidden-xs hidden-sm">
+		          <nav class="navbar navbar-default">          
+		          <div class="container-fluid">
+		            <!-- Brand and toggle get grouped for better mobile display -->
+		            <div class="navbar-header">
+		              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		                <span class="sr-only">Toggle navigation</span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		              </button>
+		            </div>
+		
+		            <!-- Collect the nav links, forms, and other content for toggling -->
+		            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		              <?php wp_nav_menu( array( 'menu_class'=>'nav navbar-nav','theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+		              </div><!-- /.navbar-collapse -->
+		            </div><!-- /.container-fluid -->
+		          </nav>
+	          <span class="logo-circle"></span>
+	        </div>
+	        <div class="col-xs-6 col-sm-6 visible-xs-block visible-sm-block">
+	        	<div class="headicoblock">
+	        		<div class="logo-circle-mb"></div>
+	        		<div class="menu-ico-mb"><a href="#sidemenumobile" id="xmobilemenuo">MENU</a></div>
+	        	</div>
+	        </div> 
+	      </div>
+	      </div>
+	    </section>
 

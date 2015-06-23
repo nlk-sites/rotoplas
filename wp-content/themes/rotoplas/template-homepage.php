@@ -13,7 +13,7 @@
 
 get_header(); ?>
 
-	<section class="wrapper content">
+	<section data-role="main" class="wrapper content">
       <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-8">

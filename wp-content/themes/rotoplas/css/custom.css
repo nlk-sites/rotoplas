@@ -1344,6 +1344,7 @@ ul.tablistlastcontent li{
 	outline: none;		
 }
 
+
 /*Mobile USA Page*/
 .wrapper.mobilecontent{
 	background: #0e1336;
@@ -1357,6 +1358,73 @@ ul.tablistlastcontent li{
 
 .wrapper.mapcontent img{
 	margin-top: 80px;
+
+#sidemenumobile.ui-panel
+{
+	background: #0082c8;
+	color: #fff;
+	width: 20em;
+	box-shadow: none;
+}
+
+#sidemenumobile.ui-panel .ui-panel-inner
+{
+	padding: 2em 0em;
+}
+
+#sidemenumobile.ui-panel .mobilemenucontent h3
+{
+	font-size: 18px;
+	line-height: 22px;
+	font-family: "Gotham";
+	margin: 0px 0px 20px;
+	font-weight: 900;
+	padding-left: 2em;
+}
+
+#sidemenumobile.ui-panel .mobilemenucontent ul
+{
+	margin-left: 0px;
+	padding: 0px;
+	
+}
+
+#sidemenumobile.ui-panel .mobilemenucontent ul li
+{
+	list-style: none;
+	padding: 10px 1em 10px 2em;	
+	border-top: 1px solid #FFF;
+}
+
+#sidemenumobile.ui-panel .mobilemenucontent ul li a
+{
+	font-size: 15px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #FFF;
+	list-style: none;
+	font-family: "Gotham Rounded";
+	display: block;
+	background: url("../images/mobile_menuarrow.png") right center no-repeat transparent; 
+}
+
+#sidemenumobile.ui-panel .mobilemenucontent ul li.facebook a {
+    background: transparent url("../images/footerfacebook.png") no-repeat scroll right center;
+    min-width: 26px;
+    min-height: 21px;
+}
+
+
+#sidemenumobile.ui-panel .mobilemenucontent ul li.twitter a {
+    background: transparent url("../images/footertwitter.png") no-repeat scroll right center;
+}
+
+.ui-panel-dismiss-open.ui-panel-dismiss-position-right
+{
+	background: #000;
+	opacity: 0.8;
+	height: 100%;
+	right: 20em;
 }
 
 @media (min-width:768px)and (max-width:991px){
