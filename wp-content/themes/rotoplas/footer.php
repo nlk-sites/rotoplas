@@ -8,7 +8,7 @@
  */
 
 ?>
-<section class="wrapper footer">
+<section class="wrapper footer" data-role="footer">
       <div class="container">
         <div class="row">
         <div class="col-xs-12 col-sm-10 col-md-10">
