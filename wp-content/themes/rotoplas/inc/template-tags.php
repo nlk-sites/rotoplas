@@ -19,20 +19,19 @@ function the_posts_navigation() {
 		return;
 	}
 	?>
-	<nav class="navigation posts-navigation" role="navigation">
-		<h2 class="screen-reader-text"><?php esc_html_e( 'Posts navigation', 'rotoplas' ); ?></h2>
-		<div class="nav-links">
-
+	<div class="row">
+		
 			<?php if ( get_next_posts_link() ) : ?>
-			<div class="nav-previous"><?php next_posts_link( esc_html__( 'Older posts', 'rotoplas' ) ); ?></div>
+			<div class="col-xs-12 col-sm-6 col-md-6"><button type="button" class="btn previousbutton">< Previous</button><?php //next_posts_link( esc_html__( 'Older posts', 'rotoplas' ) ); ?></div>
 			<?php endif; ?>
 
 			<?php if ( get_previous_posts_link() ) : ?>
-			<div class="nav-next"><?php previous_posts_link( esc_html__( 'Newer posts', 'rotoplas' ) ); ?></div>
+			<div class="col-xs-12 col-sm-6 col-md-6"><button type="button" class="btn nextbutton">Next ></button><?php //previous_posts_link( esc_html__( 'Newer posts', 'rotoplas' ) ); ?></div>
 			<?php endif; ?>
 
-		</div><!-- .nav-links -->
-	</nav><!-- .navigation -->
+		
+	</div><!-- .navigation -->
+	
 	<?php
 }
 endif;

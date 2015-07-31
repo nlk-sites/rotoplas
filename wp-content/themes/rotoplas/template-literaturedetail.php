@@ -34,7 +34,7 @@ get_header(); ?>
                         <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/200G.jpg"> 
                         <h2>200G Storage Tank</h2>
                         <p>Lorem Ipsum es simplemente el texto de relleno de las</p>
-                        <button type="button" class="btn productbutton">View more</button>
+                        <a href="<?php bloginfo('url'); ?>/literature-details/" class="btn productbutton" >View more</a>
                       </div>
                   </div>
                   <div class="col-xs-12 col-sm-3 col-md-3">
@@ -42,7 +42,7 @@ get_header(); ?>
                         <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/400G.jpg"> 
                         <h2>200G Storage Tank</h2>
                         <p>Lorem Ipsum es simplemente el texto de relleno de las</p>
-                        <button type="button" class="btn productbutton">View more</button>
+                        <a href="<?php bloginfo('url'); ?>/literature-details/" class="btn productbutton" >View more</a>
                       </div>
                   </div>
                   <div class="col-xs-12 col-sm-3 col-md-3">
@@ -50,7 +50,7 @@ get_header(); ?>
                         <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/500G.jpg"> 
                         <h2>200G Storage Tank</h2>
                         <p>Lorem Ipsum es simplemente el texto de relleno de las</p>
-                        <button type="button" class="btn productbutton">View more</button>
+                        <a href="<?php bloginfo('url'); ?>/literature-details/" class="btn productbutton" >View more</a>
                       </div>
                   </div>
                   <div class="col-xs-12 col-sm-3 col-md-3">
@@ -58,7 +58,7 @@ get_header(); ?>
                         <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/750G.jpg"> 
                         <h2>200G Storage Tank</h2>
                         <p>Lorem Ipsum es simplemente el texto de relleno de las</p>
-                        <button type="button" class="btn productbutton">View more</button>
+                        <a href="<?php bloginfo('url'); ?>/literature-details/" class="btn productbutton" >View more</a>
                       </div>
                   </div>
               </div> 
@@ -68,7 +68,7 @@ get_header(); ?>
                         <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/200G.jpg"> 
                         <h2>200G Storage Tank</h2>
                         <p>Lorem Ipsum es simplemente el texto de relleno de las</p>
-                        <button type="button" class="btn productbutton">View more</button>
+                        <a href="<?php bloginfo('url'); ?>/literature-details/" class="btn productbutton" >View more</a>
                       </div>
                   </div>
                   <div class="col-xs-12 col-sm-3 col-md-3">
@@ -76,7 +76,7 @@ get_header(); ?>
                         <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/400G.jpg"> 
                         <h2>200G Storage Tank</h2>
                         <p>Lorem Ipsum es simplemente el texto de relleno de las</p>
-                        <button type="button" class="btn productbutton">View more</button>
+                        <a href="<?php bloginfo('url'); ?>/literature-details/" class="btn productbutton" >View more</a>
                       </div>
                   </div>
                   <div class="col-xs-12 col-sm-3 col-md-3">
@@ -84,7 +84,7 @@ get_header(); ?>
                         <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/500G.jpg"> 
                         <h2>200G Storage Tank</h2>
                         <p>Lorem Ipsum es simplemente el texto de relleno de las</p>
-                        <button type="button" class="btn productbutton">View more</button>
+                        <a href="<?php bloginfo('url'); ?>/literature-details/" class="btn productbutton" >View more</a>
                       </div>
                   </div>
                   <div class="col-xs-12 col-sm-3 col-md-3">
@@ -92,7 +92,7 @@ get_header(); ?>
                         <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/750G.jpg"> 
                         <h2>200G Storage Tank</h2>
                         <p>Lorem Ipsum es simplemente el texto de relleno de las</p>
-                        <button type="button" class="btn productbutton">View more</button>
+                        <a href="<?php bloginfo('url'); ?>/literature-details/" class="btn productbutton" >View more</a>
                       </div>
                   </div>
               </div>
@@ -116,7 +116,7 @@ get_header(); ?>
                     <div class="col-xs-12 col-sm-7 col-md-7">
                         <h2>200 Gallon Storage Tank</h2> 
                         <p>Lorem Ipsum es simplemente el texto de relleno de</p>
-                        <button type="button" class="btn productbutton">View more</button>
+                        <a href="<?php bloginfo('url'); ?>/literature-details/" class="btn productbutton" >View more</a>
                     </div>
                   </div>
                   <div class="row productsidebarcontent">
@@ -126,7 +126,7 @@ get_header(); ?>
                     <div class="col-xs-12 col-sm-7 col-md-7">
                         <h2>400 Gallon Storage Tank</h2>
                         <p>Lorem Ipsum es simplemente el texto de relleno de</p>
-                        <button type="button" class="btn productbutton">View more</button>
+                        <a href="<?php bloginfo('url'); ?>/literature-details/" class="btn productbutton" >View more</a>
                     </div>
                   </div>
                   <div class="row productsidebarlastcontent">
@@ -136,23 +136,10 @@ get_header(); ?>
                     <div class="col-xs-12 col-sm-7 col-md-7">
                         <h2>500 Gallon Storage Tank</h2>
                         <p>Lorem Ipsum es simplemente el texto de relleno de</p>
-                        <button type="button" class="btn productbutton">View more</button>
+                        <a href="<?php bloginfo('url'); ?>/literature-details/" class="btn productbutton" >View more</a>
                     </div>
                    </div> 
-                   <div class="row colorcontent">
-                        <div class="col-xs-12">
-                          <h2>ESTILOS</h2>
-                        </div>  
-                        <div class="col-xs-12 coloreachcontent">
-                            <div class="whitecontent">
-                              <h3 class="white">COLOR: e6eo6e6</h3>
-                              <h4>TIPO TITULO: SIGNIKA</h4>
-                            </div>
-                            <div class="bluecontent">
-                              <h3 class="blue">TAMANO: 12PX <span> COLOR: 034EA2</h3>
-                            </div>  
-                        </div>  
-                      </div>
+                   
                    </div>   
                   </div>
                 </div>

@@ -984,11 +984,11 @@ td:last-child{
 	border-right: 0px solid #c0d3e8;
 }
 
-ul.tablist{
+ul.tablist, .product_desc ul{
 	padding: 0px 0px 0px 32px;
 }
 
-ul.tablist li{
+ul.tablist li, , .product_desc ul li{
 	color: #231f20;
 	font-size: 15px;
 	line-height: 19px;
@@ -1120,6 +1120,8 @@ ul.tablistlastcontent li{
 	background: #E6E6E6 none repeat scroll 0% 0%;
 	min-height: 300px;
 	min-width: 161px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 .producteachcontent > img{
 	padding: 7px 10px;
@@ -1160,10 +1162,10 @@ ul.tablistlastcontent li{
     display: block;
 }
 
-.previousbutton{
+.previousbutton, .previousbuttoncontainer a{
 	color: #FFF;
 	background: #006ab6 none repeat scroll 0% 0%;
-	width: 124px;
+	width: 126px;
 	min-height: 26px;
 	padding: 4px 20px;
 	font-size: 14px;
@@ -1176,7 +1178,7 @@ ul.tablistlastcontent li{
 	float: right;
 }
 
-.nextbutton{
+.nextbutton, .nextbuttoncontainer a{
 	color: #FFF;
 	background: #00BDF6 none repeat scroll 0% 0%;
 	width: 124px;
@@ -1358,6 +1360,7 @@ ul.tablistlastcontent li{
 
 .wrapper.mapcontent img{
 	margin-top: 80px;
+}
 
 #sidemenumobile.ui-panel
 {
@@ -1425,6 +1428,26 @@ ul.tablistlastcontent li{
 	opacity: 0.8;
 	height: 100%;
 	right: 20em;
+}
+
+span.color-block
+{
+	height: 32px;
+	width: 32px;
+	border-radius: 16px;
+	border: 1px solid #000;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: -10px;
+}
+
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0px 0px;
+    background: rgb(0, 189, 246) none repeat scroll 0% 0%;
+    color: #0e1336;
 }
 
 @media (min-width:768px)and (max-width:991px){

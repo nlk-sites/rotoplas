@@ -76,6 +76,8 @@ function rotoplas_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+	
+	add_image_size ( 'product-thumb', 156, 127, false );
 }
 endif; // rotoplas_setup
 add_action( 'after_setup_theme', 'rotoplas_setup' );
@@ -170,3 +172,4 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+require get_template_directory() . '/inc/custom_post.php';
