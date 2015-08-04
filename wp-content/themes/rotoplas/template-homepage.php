@@ -20,9 +20,9 @@ get_header(); ?>
               <div class="row hidden-xs hidden-sm">
 	              <div class="col-xs-12">
 	                <ul class="servicequality">
-	                  <li><a href="#">Service</a></li>
-	                  <li class="bullet"><a href="#">Quality</a></li>
-	                  <li class="bullet"><a href="#">Innovation</a></li>
+	                  <li>Service</li>
+	                  <li class="bullet">Quality</li>
+	                  <li class="bullet">Innovation</li>
 	                </ul>
 	              </div>
               </div>

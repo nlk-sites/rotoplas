@@ -183,7 +183,7 @@ ul.servicequality li{
 	list-style-type: none;
 }
 
-ul.servicequality li a{
+ul.servicequality li a, ul.servicequality li{
 	color: #fff;
 	font-size: 21.3px;
 	line-height: 26px;
@@ -195,7 +195,7 @@ ul.servicequality li a{
 }
 
 ul.servicequality li.bullet{
-	background: url('../images/bullet.png') 0 0 transparent no-repeat;
+	background: url('../images/bullet.png') 0 7px transparent no-repeat;
 }
 
 .carousel {
