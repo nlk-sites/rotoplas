@@ -16,11 +16,11 @@ get_header(); ?>
 	<section class="wrapper content">
       <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-8">
+            <div class="col-xs-12 col-sm-12 col-md-12">
               <div class="row">
-              <div class="col-xs-12 aboutcontenttitle">
-                <h1 class="user">ABOUT US</h1>
-              </div>
+	              <div class="col-xs-12 aboutcontenttitle">
+	                <h1 class="user">ABOUT US</h1>
+	              </div>
               </div>
                 <div class="row aboutcontent">
                   <div class="col-xs-12 col-sm-4 col-md-4 aboutusimage">
@@ -40,23 +40,44 @@ get_header(); ?>
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
-                      <div class="item active">
-                          <div class="col-xs-12 col-sm-3 col-md-3 overviewimage">
-                            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/overviewimage1.jpg">
-                          </div>
-                          <div class="col-xs-12 col-sm-3 col-md-3 overvieweachcontent">
-                            <h4>1989</h4>
-                            <p>A new company was founded and a new brand was created with our first product.</p>
-                              
-                          </div>
-                          <div class="col-xs-12 col-sm-3 col-md-3 overviewimage">
-                            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/overviewimage2.jpg">
-                          </div>
-                          <div class="col-xs-12 col-sm-3 col-md-3 overvieweachcontent">
-                             <h4>1991</h4>
-                              <p>More plants and distribution centers were founded.</p>
-                          </div>
-                      </div>
+	                      <div class="item active">
+	                          <div class="row">
+		                          <div class="col-xs-12 col-sm-3 col-md-3 overviewimage">
+		                            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/overviewimage1.jpg">
+		                          </div>
+		                          <div class="col-xs-12 col-sm-3 col-md-3 overvieweachcontent">
+		                            <h4>1989</h4>
+		                            <p>A new company was founded and a new brand was created with our first product.</p>
+		                              
+		                          </div>
+		                          <div class="col-xs-12 col-sm-3 col-md-3 overviewimage">
+		                            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/overviewimage2.jpg">
+		                          </div>
+		                          <div class="col-xs-12 col-sm-3 col-md-3 overvieweachcontent">
+		                             <h4>1991</h4>
+		                              <p>More plants and distribution centers were founded.</p>
+		                          </div>
+	                          </div>
+	                      </div>
+	                      <div class="item">
+	                          <div class="row">
+		                          <div class="col-xs-12 col-sm-3 col-md-3 overviewimage">
+		                            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/overviewimage1.jpg">
+		                          </div>
+		                          <div class="col-xs-12 col-sm-3 col-md-3 overvieweachcontent">
+		                            <h4>1989</h4>
+		                            <p>A new company was founded and a new brand was created with our first product.</p>
+		                              
+		                          </div>
+		                          <div class="col-xs-12 col-sm-3 col-md-3 overviewimage">
+		                            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/overviewimage2.jpg">
+		                          </div>
+		                          <div class="col-xs-12 col-sm-3 col-md-3 overvieweachcontent">
+		                             <h4>1991</h4>
+		                              <p>More plants and distribution centers were founded.</p>
+		                          </div>
+		                      </div> 
+	                      </div>
                       </div> 
                        <!-- Controls -->
                         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -71,37 +92,7 @@ get_header(); ?>
                    </div>    
                 </div> 
               </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
-                <div class="sidebar">
-                  <div class="row aboutuseachcontent1">
-                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
-                      <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/aboutusnewsimage1.jpg">
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7">
-                        <p>Rotoplas conducts research and develops new technologies through our Center for Research and Development. </p>
-                        <button type="button" class="btn newsbutton">View more</button>
-                    </div>
-                  </div>
-                  <div class="row eachcontent">
-                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
-                        <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/aboutusnewsimage2.jpg">
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7">
-                        <p>Our training programs provide a better quality of life for construction and professional workers.</p>
-                        <button type="button" class="btn newsbutton">View more</button>
-                    </div>
-                  </div>
-                  <div class="row content">
-                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
-                        <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/newsimage3.jpg">
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7">
-                        <p>Rotoplas creates different water solutions products, built to help those with lower incomes.</p>
-                        <button type="button" class="btn newsbutton">View more</button>
-                    </div>
-                   </div> 
-                </div>
-            </div>
+            
         
       </div>
      </div>  

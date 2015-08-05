@@ -561,6 +561,16 @@ span.rightarrow{
     opacity: 0.5;
 }
 
+.carousel-control.left
+{
+	left: -25px;
+}
+
+.carousel-control.right
+{
+	right: -25px;	
+}
+
 .aboutcontenttitle{
 	padding-left: 5px;
 }
