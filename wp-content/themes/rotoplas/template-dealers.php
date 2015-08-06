@@ -15,13 +15,13 @@ get_header(); ?>
 	<section class="wrapper content">
       <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-8">
+            <div class="col-xs-12 col-sm-12 col-md-12">
               <div class="row">
-              <div class="col-xs-12 contenttitle">
-                <h1 class="dealericon">Dealers</h1>
+	              <div class="col-xs-12 contenttitle">
+	                <h1 class="dealericon">Dealers</h1>
+	              </div>
               </div>
-              </div>
-                <div class="row">
+              <div class="row">
                   <div class="col-xs-12 col-sm-8 col-md-8">
                     <div class="address">
                         <h3><small>Phone</small>(209) 723 5000</h3>
@@ -34,55 +34,25 @@ get_header(); ?>
                       <div class="row"> 
                         <div class="col-xs-12">
                           <div class="dealers">
-                            <h2>NAME EXAMPLE</h2>
-                            <p class="phone">(209) 723 5000</p>
-                            <p class="email">test@rotoplasusa.com</p>
+                            <h2>BURCE HALLINAN</h2>
+                            <p class="phone">(209) 205 0500</p>
+                            <p class="email"><a href="mailto: bhallinan@rotoplas.com">bhallinan@rotoplas.com</a></p>
                           </div>
                         </div>
                       </div> 
                       <div class="row">   
                         <div class="col-xs-12">
                           <div class="dealers">
-                            <h2>NAME EXAMPLE</h2>
-                            <p class="phone">(209) 723 5000</p>
-                            <p class="email">test@rotoplasusa.com</p>
+                            <h2>SEAN CLARKE</h2>
+                            <p class="phone">(949) 292 9354</p>
+                            <p class="email"><a href="mailto: sclark@rotoplas.com">sclark@rotoplas.com</a></p>
                           </div>
                         </div> 
                       </div>
                   </div>
                 </div>    
-              </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
-                <div class="sidebar">
-                  <div class="row contacteachcontent1">
-                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
-                      <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/dealerimage1.jpg">
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7">
-                        <p>Rotoplas conducts research and develops new technologies through our Center for Research and Development. </p>
-                        <button type="button" class="btn newsbutton">View more</button>
-                    </div>
-                  </div>
-                  <div class="row eachcontent">
-                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
-                        <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/dealerimage2.jpg">
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7">
-                        <p>Our training programs provide a better quality of life for construction and professional workers.</p>
-                        <button type="button" class="btn newsbutton">View more</button>
-                    </div>
-                  </div>
-                  <div class="row content">
-                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
-                        <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/dealerimage3.jpg">
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7">
-                        <p>Rotoplas creates different water solutions products, built to help those with lower incomes.</p>
-                        <button type="button" class="btn newsbutton">View more</button>
-                    </div>
-                   </div> 
-                </div>
-            </div>
+             </div>
+     	</div>         
      </div>  
     </section>
 	

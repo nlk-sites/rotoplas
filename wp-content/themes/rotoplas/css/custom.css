@@ -819,6 +819,12 @@ label{
 .address{
 	margin-bottom: 32px;
 }
+
+.address img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .address h3 small {
 	color: #FFF;
 	font-size: 23.73px;
@@ -914,6 +920,11 @@ label{
 /*Dealer Page*/
 .dealercontent{
 	margin-top: 20px;
+}
+
+.wrapper.content .contenttitle h1
+{
+	text-transform: uppercase;	
 }
 
 .wrapper.content h1.dealericon{
