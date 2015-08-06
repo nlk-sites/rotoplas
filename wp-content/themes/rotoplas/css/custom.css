@@ -887,6 +887,16 @@ label{
 	padding: 0px 20px;
 }
 
+
+.dealers a{
+	color: #FFF;
+	font-size: 12.79px;
+	line-height: 17px;
+	font-family: "Gotham";
+	font-weight: 400;
+}
+
+
 .dealers p.phone{
 	background: url('../images/dealersphone.png') 0 0 transparent no-repeat;
 	min-height: 17px;

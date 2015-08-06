@@ -24,12 +24,12 @@ get_header(); ?>
 	              </div>
               </div>
               <div class="row">
-                  <div class="col-xs-12 col-sm-5 col-md-5">
+                  <div class="col-xs-12 col-sm-7 col-md-7">
                         <?php while ( have_posts() ) : the_post(); ?>
 	                        <?php the_content(); ?>
                         <?php endwhile; // End of the loop. ?>  
                   </div>
-                  <div class="col-xs-12 col-sm-7 col-md-7">
+                  <div class="col-xs-12 col-sm-5 col-md-5">
                       <img class="img-responsive maplocation" src="<?php bloginfo('template_url'); ?>/images/customermap.png">
                       <div class="address">
                         <h3><small>Phone</small>(209) 723 5000</h3>
