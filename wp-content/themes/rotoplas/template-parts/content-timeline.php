@@ -44,7 +44,7 @@
 				<?php 
 					echo $count%2;
 					
-					if($count%2)
+					if(!$count%2)
 					{
 						
 						echo 'closing';
