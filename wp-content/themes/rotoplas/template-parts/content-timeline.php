@@ -22,14 +22,9 @@
 						
 						if($count%2)
 						{
-							$open = true;	
-							//echo 'opening';
-						}
-						
-						if($open)
-						{
 							echo '<div class="item'.$class.'">
-									<div class="row">';		
+									<div class="row">';	
+							$open = true;			
 						}
 						
 				?>
@@ -42,12 +37,9 @@
 									<?php the_content(); ?>
 								</div>
 				<?php 
-					echo $count%2;
 					
-					if(!$count%2)
+					if($count%2 == 0)
 					{
-						
-						echo 'closing';
 						$open = false;
 						echo '</div>
 							</div>';
