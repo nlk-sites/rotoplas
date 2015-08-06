@@ -51,4 +51,29 @@ get_header(); ?>
      	</div>
      </div>	  
    </section>
+   <div class="modal fade" id="thankyoupop">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title">Thank You</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>Thanks for contacting us! We will contact you soon.<br/>
+			   Please send lead info to <a href="mailto: sjaquez@rotoplas.com">sjaquez@rotoplas.com</a>
+			</p>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+   <script type="text/javascript">
+   		jQuery(document).ready(function(){
+   			
+   		});
+   		
+   		function popupthankyou()
+   		{
+			jQuery('#thankyoupop').modal('show');
+   		}
+   </script>
 <?php get_footer(); ?>
