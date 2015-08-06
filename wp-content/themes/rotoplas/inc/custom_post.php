@@ -7,7 +7,7 @@
 		'menu_name'           => __( 'Products', '' ),
 		'parent_item_colon'   => __( 'Parent Product', 'garber' ),
 		'all_items'           => __( 'All Products', 'garber' ),
-		'view_item'           => __( 'View Vehicle New Special', 'garber' ),
+		'view_item'           => __( 'View Overview', 'garber' ),
 		'add_new_item'        => __( 'Add Product', 'garber' ),
 		'add_new'             => __( 'Add New', 'garber' ),
 		'edit_item'           => __( 'Edit Product', 'garber' ),
@@ -62,4 +62,41 @@
 	);
 
 	register_taxonomy( 'product-category', array( 'product' ), $args );
+	
+	$labels = array(
+		'name'                => _x( 'Overviews', 'Overviews', 'garber' ),
+		'singular_name'       => _x( 'Overview', 'Overview', 'garber' ),
+		'menu_name'           => __( 'Overviews', '' ),
+		'parent_item_colon'   => __( 'Parent Overview', 'garber' ),
+		'all_items'           => __( 'All Overviews', 'garber' ),
+		'view_item'           => __( 'View Overview', 'garber' ),
+		'add_new_item'        => __( 'Add Overview', 'garber' ),
+		'add_new'             => __( 'Add New', 'garber' ),
+		'edit_item'           => __( 'Edit Overview', 'garber' ),
+		'update_item'         => __( 'Update Overview', 'garber' ),
+		'search_items'        => __( 'Search Overviews', 'garber' ),
+		'not_found'           => __( 'Not Found', 'garber' ),
+		'not_found_in_trash'  => __( 'Not found in Trash', 'garber' ),
+	);
+		
+	$args = array(
+		'label'               => __( 'Overview', 'garber' ),
+		'description'         => __( 'Overviews', 'garber' ),
+		'labels'              => $labels,
+		'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
+		'hierarchical'        => false,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_nav_menus'   => true,
+		'show_in_admin_bar'   => true,
+		'menu_position'       => 5,
+		'can_export'          => true,
+		'has_archive'         => true,
+		'exclude_from_search' => false,
+		'publicly_queryable'  => true,
+		'capability_type'     => 'page',
+	);
+	
+	register_post_type( 'overview', $args );
 ?>

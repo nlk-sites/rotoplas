@@ -731,7 +731,7 @@ label{
 .faqbutton{
     color: #0B0C32;
     background: #FFF none repeat scroll 0% 0%;
-    width: 70%;
+    width: 100%;
     min-height: 26px;
     padding: 2px 33px;
     font-size: 17.4px;
@@ -743,6 +743,7 @@ label{
     margin-right: 37px;
     float: right;
     border-radius: 15px;
+    max-width: 305px;
 }
 
 .contactaddress{
