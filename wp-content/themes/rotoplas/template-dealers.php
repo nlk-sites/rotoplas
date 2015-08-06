@@ -28,7 +28,7 @@ get_header(); ?>
                         <h4>2651 Cooper Av.</h4>
                         <h5>Merced, California</h5>
                       </div> 
-                    <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/dealersmap.png"> 
+                    <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/dealersmap.png" style="margin-left: auto; margin-right: auto;" /> 
                   </div>
                   <div class="col-xs-12 col-sm-4 col-md-4 dealercontent">
                       <div class="row"> 
