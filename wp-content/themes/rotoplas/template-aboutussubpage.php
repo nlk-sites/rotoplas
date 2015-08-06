@@ -31,7 +31,7 @@ get_header(); ?>
 	                      <?php the_content()?>
 	                      <a href="<?php bloginfo('url'); ?>/about-us" class="btn contentbutton">About us</a>
 	                      <a href="<?php bloginfo('url'); ?>/about-us/mission-vision" class="btn contentbutton">Mission / Vision</a>
-	                      <a href="<?php bloginfo('url'); ?>/about-us/careers" class="btn contentbutton">Careers</a>     
+	                      <a href="<?php bloginfo('url'); ?>/about-us/careers" class="btn contentbutton careersbutton">Careers</a>     
 	                  </div>
 	                </div>  
                 <?php endwhile; // End of the loop. ?>
@@ -40,4 +40,10 @@ get_header(); ?>
       </div>
      </div>  
     </section>
+    <style>
+    	body.page-id-355 .careersbutton
+    	{
+    		display: none;
+    	}
+    </style>
 <?php get_footer(); ?>
