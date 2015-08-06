@@ -29,9 +29,9 @@ get_header(); ?>
 	                  </div>
 	                  <div class="col-xs-12 col-sm-8 col-md-8 text">
 	                      <?php the_content()?>
-	                      <a href="#" class="btn contentbutton">About us</a>
-	                      <a href="#" class="btn contentbutton">Mission / Vision</a>
-	                      <a href="#" class="btn contentbutton">Careers</a>     
+	                      <a href="<?php bloginfo('url'); ?>/about-us" class="btn contentbutton">About us</a>
+	                      <a href="<?php bloginfo('url'); ?>/about-us/mission-vision" class="btn contentbutton">Mission / Vision</a>
+	                      <a href="<?php bloginfo('url'); ?>/about-us/careers" class="btn contentbutton">Careers</a>   
 	                  </div>
 	                </div>  
                 <?php endwhile; // End of the loop. ?>

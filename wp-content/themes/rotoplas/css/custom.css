@@ -642,7 +642,7 @@ label{
 }
 /*Mission Page*/
 .missioncontent{
-	margin: 44px 0px;
+	xmargin: 44px 0px;
 }
 
 .missioncontent h5, .visioncontent h5{
