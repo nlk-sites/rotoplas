@@ -905,7 +905,7 @@ label{
 }
 
 .dealers p.email{
-	background: url('../images/dealersmail.png') 0 0 transparent no-repeat;
+	background: url('../images/dealersmail.png') 0 4px transparent no-repeat;
 	min-height: 10px;
 	margin-left: 25px;
 	display: inline-block;
