@@ -299,8 +299,8 @@ ul.servicequality li.bullet{
 	width: 124px;
 	min-height: 26px;
 	padding: 4px 33px;
-	font-size: 14px;
-	line-height: 18px;
+	font-size: 16px;
+	line-height: 20px;
 	font-weight: 400;
 	text-align: center;
 	border-radius: 15px;
@@ -478,8 +478,8 @@ ul.footersocialicon li.facebook a{
 
 .text p span{
 	color: #fff;
-	font-size: 16px;
-	line-height: 20px;
+	font-size: 18px;
+	line-height: 22px;
 	text-align: justify;
 	xfont-family: "Gotham";
 	font-family: 'Signika', sans-serif;
