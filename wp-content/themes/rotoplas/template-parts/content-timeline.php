@@ -23,7 +23,7 @@
 						if($count%2)
 						{
 							$open = true;	
-							echo 'opening';
+							//echo 'opening';
 						}
 						
 						if($open)
@@ -42,14 +42,20 @@
 									<?php the_content(); ?>
 								</div>
 				<?php 
-					if(!$count%2)
+					echo $count%2;
+					
+					if($count%2)
 					{
+						
 						echo 'closing';
 						$open = false;
 						echo '</div>
 							</div>';
 					}
-					endwhile;  wp_reset_postdata();
+
+					endwhile;
+					  
+					wp_reset_postdata();
 					
 					if($open)
 					{
