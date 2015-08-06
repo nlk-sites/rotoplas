@@ -435,7 +435,7 @@ ul.footersocialicon li.facebook a{
 	color: #fff;
 	font-size: 29.63px;
 	line-height: 33px;
-	padding-left: 50px;
+	xpadding-left: 50px;
 	font-family: "Gotham";
 	font-weight: 700;
 	xmargin-bottom: 0px;
@@ -703,6 +703,7 @@ label{
 .wrapper.content h1.contact{
 	background: url('../images/contacticon.png') 0 0 transparent no-repeat;
 	min-height: 28px;
+	padding-left: 50px;
 	margin-left: 10px;
 }
 
@@ -747,7 +748,7 @@ label{
     text-align: center;
     margin-top: 12px;
     margin-right: 37px;
-    float: right;
+    xfloat: right;
     border-radius: 15px;
     max-width: 325px;
 	text-align: center;
