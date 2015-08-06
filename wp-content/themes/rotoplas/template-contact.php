@@ -31,7 +31,7 @@ get_header(); ?>
                   </div>
                   <div class="col-xs-12 col-sm-7 col-md-7">
                       <div class="contactaddress">
-                        <h1><small>Phone</small>(209) 777 6119</h1>
+                        <h1><small>Phone</small>(209) 723 5000</h1>
                         <h2>2651 Cooper Av.</h2>
                         <h3>Merced, California</h3>
                       </div> 
