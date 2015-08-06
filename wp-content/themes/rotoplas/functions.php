@@ -78,6 +78,7 @@ function rotoplas_setup() {
 	) ) );
 	
 	add_image_size ( 'product-thumb', 156, 127, false );
+	add_image_size ( 'overview-thumb', 117, 117, false );
 }
 endif; // rotoplas_setup
 add_action( 'after_setup_theme', 'rotoplas_setup' );
