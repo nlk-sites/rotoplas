@@ -12,7 +12,7 @@
 						while ( $the_query->have_posts() ) : $the_query->the_post();
 						$count += 1;
 						
-						$class = 'active';
+						$class = ' active';
 						
 						
 						if($count > 1)
@@ -23,11 +23,12 @@
 						if($count%2)
 						{
 							$open = true;	
+							echo 'opening';
 						}
 						
 						if($open)
 						{
-							echo '<div class="item '.$class.'">
+							echo '<div class="item'.$class.'">
 									<div class="row">';		
 						}
 						
@@ -41,8 +42,9 @@
 									<?php the_content(); ?>
 								</div>
 				<?php 
-					if($count%2 == 0)
+					if(!$count%2)
 					{
+						echo 'closing';
 						$open = false;
 						echo '</div>
 							</div>';
