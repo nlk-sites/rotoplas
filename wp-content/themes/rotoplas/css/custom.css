@@ -964,7 +964,8 @@ label{
 
 .wrapper.content .contenttitle h1
 {
-	text-transform: uppercase;	
+	text-transform: uppercase;
+	padding-left: 50px;	
 }
 
 .wrapper.content h1.dealericon{
