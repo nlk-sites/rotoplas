@@ -446,6 +446,11 @@ ul.footersocialicon li.facebook a{
 	min-height: 23px;
 }
 
+.wrapper.content .aboutcontenttitle h1
+{
+	text-transform: uppercase;
+}
+
 .text {
 	padding: 40px 0px 0px 0px;
 }
@@ -794,12 +799,14 @@ label{
 	border-bottom: 1px solid #00AAE5;
 	margin: 0px 0px 10px;
 	padding: 55px 0px 12px;
+	
 }
 
 /*Customer Service Page*/
 .wrapper.content h1.customerservice{
 	background: url('../images/customerservice.png') 0 0 transparent no-repeat;
 	min-height: 28px;
+	text-transform: uppercase;
 }
 
 .maplocation{
@@ -854,9 +861,11 @@ label{
 .dealers{
 	border: 1px solid #084a93;
 	border-radius: 15px;
-	min-width: 200px;
 	margin-bottom: 15px;
     background: rgba(8, 74, 147, 0.7) none repeat scroll 0% 0%;
+    max-width: 215px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .dealers h2{
