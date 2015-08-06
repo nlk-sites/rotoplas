@@ -73,7 +73,7 @@ ul.navbar-nav li a{
 	color: #00aeef;
 	text-decoration: none;
 	text-align: center;
-	font-size: 12.69px;
+	font-size: 14.69px;
 	line-height: 17px;
 	xxfont-family: "Gotham Rounded"; font-family: 'Signika', sans-serif;
 	font-family: 'Signika', sans-serif;
@@ -458,6 +458,7 @@ ul.footersocialicon li.facebook a{
 .wrapper.content .aboutcontenttitle h1
 {
 	text-transform: uppercase;
+	padding-left: 50px;
 }
 
 .text {
@@ -466,9 +467,9 @@ ul.footersocialicon li.facebook a{
 
 .text p{
 	color: #fff;
-	font-size: 13px;
+	font-size: 14px;
 	text-align: justify;
-	line-height: 17px;
+	line-height: 18px;
 	xfont-family: "Gotham";
 	font-family: 'Signika', sans-serif;
 	font-weight: 400;
@@ -477,8 +478,8 @@ ul.footersocialicon li.facebook a{
 
 .text p span{
 	color: #fff;
-	font-size: 15px;
-	line-height: 19px;
+	font-size: 16px;
+	line-height: 20px;
 	text-align: justify;
 	xfont-family: "Gotham";
 	font-family: 'Signika', sans-serif;
@@ -521,9 +522,9 @@ ul.footersocialicon li.facebook a{
 
 .overviewcontent p{
 	color: #FFF;
-	font-size: 13px;
+	font-size: 14px;
 	text-align: justify;
-	line-height: 17px;
+	line-height: 18px;
 	padding-right: 25px;
 	xfont-family: "Gotham";
 	font-family: 'Signika', sans-serif;
@@ -540,9 +541,9 @@ ul.footersocialicon li.facebook a{
 
 .overvieweachcontent h4{
 	color: #FFF;
-	font-size: 15px;
+	font-size: 17px;
 	text-align: justify;
-	line-height: 17px;
+	line-height: 20px;
 	text-align: center;
 	padding-right: 25px;
 	margin-top: 0px;
