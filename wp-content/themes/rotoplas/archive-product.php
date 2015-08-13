@@ -25,7 +25,7 @@ get_header(); ?>
             <div class="productcontent">
               <div class="row">
                 <div class="col-xs-12">
-                   <div clas="product_bg"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/producttitleimage.jpg"></div>
+                   <div class="product_bg"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/producttitleimage.jpg"></div>
                 </div>
               </div>
                   <?php if ( have_posts() ) : ?>
