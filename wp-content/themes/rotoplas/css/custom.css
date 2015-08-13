@@ -1547,12 +1547,12 @@ span.color-block
 	width: 100%;
 }
 
-.product_bg
-{
-	background: url('../images/product_bg.png') 0 0 repeat-x transparent;
-	text-align: center;
-	background-size: cover;	
+.product_bg {
+    text-align: center;
+    background: transparent url("../images/producttitleimage.jpg") no-repeat scroll 0px 0px / cover;
+    min-height: 235px;
 }
+
 
 
 @media (min-width:768px)and (max-width:991px){

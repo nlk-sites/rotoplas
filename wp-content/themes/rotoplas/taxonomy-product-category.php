@@ -27,7 +27,7 @@ echo $term->name;
             <div class="productcontent">
               <div class="row">
                 <div class="col-xs-12">
-                   <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/producttitleimage.jpg"> 
+                   <div class="product_bg"></div> 
                 </div>
               </div>
                   <?php if ( have_posts() ) : ?>
