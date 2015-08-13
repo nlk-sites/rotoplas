@@ -1547,6 +1547,14 @@ span.color-block
 	width: 100%;
 }
 
+.product_bg
+{
+	background: url('../images/product_bg.png') 0 0 repeat-x transparent;
+	text-align: center;
+	background-size: cover;	
+}
+
+
 @media (min-width:768px)and (max-width:991px){
 	
 	.sidebar .eachNews .eachcontent

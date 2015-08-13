@@ -16,10 +16,10 @@ get_header(); ?>
 	<section class="wrapper literaturecontent">
       <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-8">
+            <div class="col-xs-12 col-sm-12 col-md-12">
               <div class="row">
 	              <div class="col-xs-12">
-	                <h1 class="literature">Literature - <?php $term =	$wp_query->queried_object;
+	                <h1 class="literature">Products - <?php $term =	$wp_query->queried_object;
 echo $term->name;
  ?></h1>
 	              </div> 
@@ -33,7 +33,7 @@ echo $term->name;
                   <?php if ( have_posts() ) : ?>
 						<div class="row groupproduct">
 							<?php while ( have_posts() ) : the_post(); ?>
-								<div class="col-xs-12 col-sm-3 col-md-3 eachproduct">
+								<div class="col-xs-12 col-sm-3 col-md-2 eachproduct">
 			                      <div class="producteachcontent">
 			                        <?php the_post_thumbnail('product-thumb', array('class' => 'img-responsive')) ?>
 			                        <h2><?php the_title(); ?></h2>
@@ -63,41 +63,7 @@ echo $term->name;
 
             </div>  
           </div>  	
-            <div class="col-xs-12 col-sm-4 col-md-4">
-                <div class="sidebar">
-                  <div class="row producteachcontent1">
-                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
-                      <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/literaturesidebarimage1.jpg">
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7">
-                        <h2>200 Gallon Storage Tank</h2> 
-                        <p>Lorem Ipsum es simplemente el texto de relleno de</p>
-                        <a href="<?php bloginfo('url'); ?>/literature-details/" class="btn productbutton" >View more</a>
-                    </div>
-                  </div>
-                  <div class="row productsidebarcontent">
-                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
-                        <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/literaturesidebarimage2.jpg">
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7">
-                        <h2>400 Gallon Storage Tank</h2>
-                        <p>Lorem Ipsum es simplemente el texto de relleno de</p>
-                        <a href="<?php bloginfo('url'); ?>/literature-details/" class="btn productbutton" >View more</a>
-                    </div>
-                  </div>
-                  <div class="row productsidebarlastcontent">
-                    <div class="col-xs-12 col-sm-5 col-md-5 imagecontent">
-                        <img class="img-responsive newsimage" src="<?php bloginfo('template_url'); ?>/images/literaturesidebarimage3.jpg">
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7">
-                        <h2>500 Gallon Storage Tank</h2>
-                        <p>Lorem Ipsum es simplemente el texto de relleno de</p>
-                        <a href="<?php bloginfo('url'); ?>/literature-details/" class="btn productbutton" >View more</a>
-                    </div>
-                   </div> 
-                   
-                   </div>   
-                  </div>
+            
                 </div>
             </div>
         

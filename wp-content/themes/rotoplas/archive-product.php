@@ -16,22 +16,22 @@ get_header(); ?>
 	<section class="wrapper literaturecontent">
       <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-8">
+            <div class="col-xs-12 col-sm-12 col-md-12">
               <div class="row">
 	              <div class="col-xs-12">
-	                <h1 class="literature">Literature</h1>
+	                <h1 class="literature">Products</h1>
 	              </div> 
               </div>
             <div class="productcontent">
               <div class="row">
                 <div class="col-xs-12">
-                   <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/producttitleimage.jpg"> 
+                   <div clas="product_bg"><img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/producttitleimage.jpg"></div>
                 </div>
               </div>
                   <?php if ( have_posts() ) : ?>
 						<div class="row groupproduct">
 							<?php while ( have_posts() ) : the_post(); ?>
-								<div class="col-xs-12 col-sm-3 col-md-3 eachproduct">
+								<div class="col-xs-12 col-sm-3 col-md-2 eachproduct">
 			                      <div class="producteachcontent">
 			                        <?php the_post_thumbnail('product-thumb', array('class' => 'img-responsive')) ?>
 			                        <h2><?php the_title(); ?></h2>
@@ -60,7 +60,8 @@ get_header(); ?>
               
 
             </div>  
-          </div>  	
+          </div> 
+          <?php /* ?> 	
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <div class="sidebar">
                   <div class="row producteachcontent1">
@@ -95,7 +96,7 @@ get_header(); ?>
                    </div> 
                    
                    </div>   
-                  </div>
+                </div><?php */ ?>
                 </div>
             </div>
         
