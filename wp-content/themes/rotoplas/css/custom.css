@@ -1118,7 +1118,7 @@ ul.tablistlastcontent li{
 	width: 115px;
 }
 
-.warranty h3 span{
+.warranty h3 span, .warranty h3::last-word{
 	color: #fff;
 	font-size: 24.03px;
 	line-height: 28px;
@@ -1126,6 +1126,7 @@ ul.tablistlastcontent li{
 	font-weight: 400;
 	border-radius: 8px;
 }
+
 
 .warranty h4{
 	color: #15bef0;

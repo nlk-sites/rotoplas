@@ -13,7 +13,7 @@ get_header(); ?>
             <div class="col-xs-12 col-sm-12 col-md-12">
               <div class="row">
 	              <div class="col-xs-12">
-	                <h1 class="literature">Literature</h1>
+	                <h1 class="literature">Products</h1>
 	              </div>
               </div>
              	<div>
