@@ -20,8 +20,16 @@ get_header(); ?>
              		<div class="col-xs-12">		
 					 <!-- Nav tabs -->
 					  <ul class="nav nav-tabs" role="tablist">
-					    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">OVERVIEW</a></li>
-					    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">CHEMICAL RESISTANCE</a></li>
+					    <li role="presentation" class="active"><a href="#overview" aria-controls="overview" role="tab" data-toggle="tab">OVERVIEW</a></li>
+					    <li role="presentation"><a href="<?php bloginfo('template_url')?>/pdfs/Chemical_Resistance_Guide_062015.pdf" target="_blank">CHEMICAL RESISTANCE</a></li>
+					    <?php
+					    	if(get_field('drawing_specs'))
+							{
+								?>
+									<li role="presentation"><a href="<?php the_field('drawing_specs'); ?>" target="_blank">SPECIFICATIONS</a></li>
+								<?php
+							}
+					    ?>
 					  </ul>
 
 					  <!-- Tab panes -->
@@ -34,7 +42,7 @@ get_header(); ?>
 						    			<div class="col-xs-12 col-sm-8 col-md-8">
 						    				<h2>PRODUCT  DESCRIPTION</h2>
 						    				<h3><?php the_title(); ?></h3>
-						    				<table>
+						    				<table class="spectable">
 						    					<thead>
 						    						<tr>
 						    							<th>Capacity</th>
@@ -141,7 +149,7 @@ get_header(); ?>
 						    		</div>
 
 					    	</div>
-					    <div role="tabpanel" class="tab-pane" id="chemicalresistance">...</div>
+					    	<div role="tabpanel" class="tab-pane" id="chemicalresistance">...</div>
 					  </div>
 
 					</div>
