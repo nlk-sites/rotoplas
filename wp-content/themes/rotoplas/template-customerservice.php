@@ -59,9 +59,7 @@ get_header(); ?>
 	        <h4 class="modal-title">Thank You</h4>
 	      </div>
 	      <div class="modal-body">
-	        <p>Thanks for contacting us! We will contact you soon.<br/>
-			   Please send lead info to <a href="mailto: sjaquez@rotoplas.com">sjaquez@rotoplas.com</a>
-			</p>
+	        <p>Thanks for contacting us! We will contact you soon.</p>
 	      </div>
 	    </div><!-- /.modal-content -->
 	  </div><!-- /.modal-dialog -->
