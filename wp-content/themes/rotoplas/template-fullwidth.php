@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Privacy Notice
+ * Template Name: Fullwidth
  *
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
@@ -12,7 +12,7 @@
  */
 
 get_header(); ?>
-<section class="wrapper privacycontent">
+	<section class="wrapper privacycontent">
 	      <div class="container">
 	        <div class="row">
 	            <div class="col-xs-12 col-sm-12 col-md-12">
