@@ -19,7 +19,7 @@ get_header(); ?>
             <div class="col-xs-12 col-sm-12 col-md-12">
               <div class="row">
 	              <div class="col-xs-12 contenttitle">
-	                <h1 class="customerservice">COSTUMER SERVICE</h1>
+	                <h1 class="customerservice">CUSTOMER SERVICE</h1>
 	                <h2>You have any questions?</h2>
 	              </div>
               </div>
