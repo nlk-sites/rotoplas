@@ -20,7 +20,7 @@ get_header(); ?>
               <div class="row">
 	              <div class="col-xs-12 contenttitle">
 	                <h1 class="customerservice">CUSTOMER SERVICE</h1>
-	                <h2>You have any questions?</h2>
+	                <h2>Do you have any questions?</h2>
 	              </div>
               </div>
               <div class="row">
