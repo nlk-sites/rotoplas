@@ -81,7 +81,7 @@ get_header(); ?>
 									<?php endif; ?>
 				            </div>
 					    </div>
-					    <div role="tabpanel" class="tab-pane active" id="agriculturaltanks">
+					    <div role="tabpanel" class="tab-pane" id="agriculturaltanks">
 					    	<div class="productcontent">
 				              <div class="row">
 				                <div class="col-xs-12">
@@ -122,7 +122,7 @@ get_header(); ?>
 									<?php endif; ?>
 				            </div>
 					    </div>
-					    <div role="tabpanel" class="tab-pane active" id="industrialtanks">
+					    <div role="tabpanel" class="tab-pane" id="industrialtanks">
 					    	<div class="productcontent">
 				              <div class="row">
 				                <div class="col-xs-12">
