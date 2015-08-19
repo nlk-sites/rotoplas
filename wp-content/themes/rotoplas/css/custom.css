@@ -1191,7 +1191,7 @@ ul.tablistlastcontent li{
 /*Literature01 Page*/
 .productcontent{
 	background: #fff;
-	margin-top: 37px;
+	margin-top: 0px;
 	margin-bottom: 43px;
 	padding-bottom: 175px;
 }
@@ -1226,6 +1226,9 @@ ul.tablistlastcontent li{
 	xxfont-family: "Gotham"; font-family: 'Signika', sans-serif;
 	font-family: 'Signika', sans-serif;
 	font-weight: 700;
+	background: none;
+	width: auto;
+	min-height: 0px;
 }
 
 .producteachcontent p{
