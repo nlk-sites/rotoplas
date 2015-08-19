@@ -35,8 +35,8 @@ get_header(); ?>
                         <h2>2651 Cooper Av.</h2>
                         <h3>Merced, California</h3>
                       </div> 
-                        <a href="#" class="btn faqbutton">Would you like to be distributor?</a>
-                        <a href="#" class="btn faqbutton">Product and warranty information</a>
+                        <a href="<?php bloginfo('url'); ?>/distributor" class="btn faqbutton">Would you like to be a distributor?</a>
+                        <a href="<?php bloginfo('url'); ?>/warranty" class="btn faqbutton">Product and warranty information</a>
                   </div>
                 </div>    
               </div>
