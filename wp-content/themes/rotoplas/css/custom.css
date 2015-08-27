@@ -1107,19 +1107,24 @@ ul.pdfdownloads li
 {
 	margin-bottom: 10px;
 	list-style: none;
+	text-align: center;
 }
 
 ul.pdfdownloads li a
 {
 	padding-left: 40px;
-	color: #231F20;
-	font-size: 15px;
-	line-height: 30px;
-	font-family: "Signika",sans-serif;
-	font-weight: 400;
-	display: block;
-	min-height: 40px;
-	background: url("../images/pdf_icon2.png") 0 0px no-repeat transparent;	
+    color: #231F20;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: "Signika",sans-serif;
+    font-weight: 400;
+    min-height: 40px;
+    background: transparent url("../images/pdf_icon2.png") no-repeat scroll 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    text-align: left;
+    display: block;
 }
 
 .imagecontent1{
@@ -1186,26 +1191,29 @@ ul.pdfdownloads li a
 }
 
 .colors h2{
-	color: #034ea2;
+	color: #034EA2;
 	font-size: 18px;
-	background: transparent;
-	xpadding-left: 20px;
+	background: transparent none repeat scroll 0% 0%;
 	line-height: 22px;
-	xtext-align: center;
 	font-weight: 400;
 	font-family: "Signika",sans-serif;
-	margin-left: 40px;
-	padding-left: 0px;
+	padding: 0px;
+	width: auto;
+	text-align: center;
 }
 
 .colors h3{
-	color: rgb(35, 31, 32);
+	color: #231F20;
 	font-size: 15px;
 	margin-top: 0px;
-	padding: 7px 40px;
 	line-height: 19px;
 	font-family: "Signika",sans-serif;
 	font-weight: 400;
+	max-width: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 7px 0px;
+	display: block;
 }
 
 .colors h3.white{
