@@ -1122,7 +1122,7 @@ ul.pdfdownloads li a
     background: transparent url("../images/pdf_icon2.png") no-repeat scroll 0px 0px;
     margin-left: auto;
     margin-right: auto;
-    width: 320px;
+    max-width: 320px;
     text-align: left;
     display: block;
 }
