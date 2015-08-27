@@ -1105,7 +1105,7 @@ ul.pdfdownloads
 
 ul.pdfdownloads li
 {
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 ul.pdfdownloads li a
@@ -1190,9 +1190,11 @@ ul.pdfdownloads li a
 	background: transparent;
 	xpadding-left: 20px;
 	line-height: 22px;
-	text-align: center;
+	xtext-align: center;
 	font-weight: 400;
 	font-family: "Signika",sans-serif;
+	margin-left: 40px;
+	padding-left: 0px;
 }
 
 .colors h3{
