@@ -21,15 +21,6 @@ get_header(); ?>
 					 <!-- Nav tabs -->
 					  <ul class="nav nav-tabs" role="tablist">
 					    <li role="presentation" class="active"><a href="#overview" aria-controls="overview" role="tab" data-toggle="tab">OVERVIEW</a></li>
-					    <li role="presentation"><a href="<?php bloginfo('template_url')?>/pdfs/Chemical_Resistance_Guide_062015.pdf" target="_blank">CHEMICAL RESISTANCE</a></li>
-					    <?php
-					    	if(get_field('drawing_specs'))
-							{
-								?>
-									<li role="presentation"><a href="<?php the_field('drawing_specs'); ?>" target="_blank">SPECIFICATIONS</a></li>
-								<?php
-							}
-					    ?>
 					  </ul>
 
 					  <!-- Tab panes -->
@@ -71,7 +62,7 @@ get_header(); ?>
 						    				<?php the_field('top_view_description'); ?>	
 						    			</div>
 						    			<div class="col-xs-12 col-sm-4 col-md-4">
-						    				<img class="img-responsive imagecontent1" src="<?php the_field('top_view_image'); ?>">
+						    				<img class="img-responsive imagecontent1 topviewimg" src="<?php the_field('top_view_image'); ?>">
 						    			</div>
 						    		</div>	
 						    		<div class="row">
@@ -91,7 +82,7 @@ get_header(); ?>
 											 	// loop through the rows of data
 											    while ( have_rows('warranty_types') ) : the_row();
 													?>
-														<div class="col-xs-12 col-sm-6 col-md-6">
+														<div class="col-xs-12 col-sm-12 col-md-12">
 						    								<div class="warranty">
 																<?php
 														        // display a sub field value
@@ -112,32 +103,61 @@ get_header(); ?>
 						    		</div>
 						    		<div class="row">
 						    			<div class="col-xs-12">
-                      <div class="colors">
-						    			   	<h2>Colors avaliable</h2>				  
-						    					  <?php
-									    				if( have_rows('colors_available') ):
-			
-														 	// loop through the rows of data
-														    while ( have_rows('colors_available') ) : the_row();
-																?>
-																<?php
-																	        // display a sub field value
-																	        	$field = get_sub_field_object('color_name');
-																				$value = get_sub_field('color_name');
-																				$label = $field['choices'][ $value ];
-																	        	echo '<h3><span class="color-block" style="background: #'.$value.'"></span>'.$label.'</h3>';
-																?>
-																<?php
-														    endwhile;
-														
-														else :
-														
-														    // no rows found
-														
-														endif;
-																				    				
-									    			?>
-						    				</div>
+						                      <div class="colors">
+												    			   	<h2>Colors avaliable</h2>				  
+												    					  <?php
+															    				if( have_rows('colors_available') ):
+									
+																				 	// loop through the rows of data
+																				    while ( have_rows('colors_available') ) : the_row();
+																						?>
+																						<?php
+																							        // display a sub field value
+																							        	$field = get_sub_field_object('color_name');
+																										$value = get_sub_field('color_name');
+																										$label = $field['choices'][ $value ];
+																							        	echo '<h3><span class="color-block" style="background: #'.$value.'"></span>'.$label.'</h3>';
+																						?>
+																						<?php
+																				    endwhile;
+																				
+																				else :
+																				
+																				    // no rows found
+																				
+																				endif;
+																										    				
+															    			?>
+												  </div>
+												  <div class="colors">
+												    	<h2>Product Information</h2>				  
+												    	<ul class="pdfdownloads">
+												    		<?php
+														    	if(get_field('chemical_resistance_quick'))
+																{
+																	?>
+																		<li><a href="<?php the_field('chemical_resistance_quick'); ?>" target="_blank">Chemical Resistance - Quick Reference PDF</a></li>
+																	<?php
+																}
+														    ?>
+												    		<?php
+														    	if(get_field('chemical_resistance_detailed'))
+																{
+																	?>
+																		<li><a href="<?php the_field('chemical_resistance_detailed'); ?>" target="_blank">Chemical Resistance - Detailed PDF</a></li>
+																	<?php
+																}
+														    ?>
+												    		<?php
+														    	if(get_field('drawing_specs'))
+																{
+																	?>
+																		<li><a href="<?php the_field('drawing_specs'); ?>" target="_blank">Product Specification</a></li>
+																	<?php
+																}
+														    ?>
+												    	</ul>			
+												  </div>
 						    			</div>		
 						    		</div>
 						    		</div>
