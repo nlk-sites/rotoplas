@@ -1037,6 +1037,12 @@ label, .container .gform_wrapper .top_label .gfield_label{
 	min-height: 28px;
 }
 
+.tab-content .archivetitle h2
+{
+	font-size: 21px;
+	line-height: 25px;
+}
+
 .tab-content h3{
 	color: rgb(0, 189, 246);
 	font-size: 25px;
