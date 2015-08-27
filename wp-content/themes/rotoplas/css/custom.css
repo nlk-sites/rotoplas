@@ -742,6 +742,7 @@ label, .container .gform_wrapper .top_label .gfield_label{
     text-align: center;
     border-radius: 15px;
     float: right;
+    border: 0px solid #FFF;
 }
 
 .contenttitle h2{
