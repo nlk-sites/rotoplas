@@ -42,9 +42,9 @@ get_header(); ?>
 					  <div class="tab-content">
 					    <div role="tabpanel" class="tab-pane active" id="watertanks">
 					    	<div class="productcontent">
-				              <div class="row">
+				              <div class="row archivetitle">
 				                <div class="col-xs-12">
-				                   <div class="product_bg"></div>
+				                   <h2>Water Tanks</h2>
 				                </div>
 				              </div>
 				                  <?php 
@@ -56,7 +56,7 @@ get_header(); ?>
 															),
 														);
 																
-										$args = array('post_type' => 'product', 'posts_per_page' => -1, 'tax_query' => $tax_query);
+										$args = array('post_type' => 'product', 'posts_per_page' => -1, 'tax_query' => $tax_query, 'meta_key' => 'capacity', 'orderby' => 'meta_value_num', 'order' => 'asc');
 										$the_query2 = new WP_Query($args); 
 										
 				                  		if ( $the_query2->have_posts() ) : ?>
@@ -83,9 +83,9 @@ get_header(); ?>
 					    </div>
 					    <div role="tabpanel" class="tab-pane" id="agriculturaltanks">
 					    	<div class="productcontent">
-				              <div class="row">
+				              <div class="row archivetitle">
 				                <div class="col-xs-12">
-				                   <div class="product_bg"></div>
+				                   <h2>Agricultural Tanks</h2>
 				                </div>
 				              </div>
 				                  <?php 
@@ -97,7 +97,7 @@ get_header(); ?>
 															),
 														);
 																
-										$args = array('post_type' => 'product', 'posts_per_page' => -1, 'tax_query' => $tax_query);
+										$args = array('post_type' => 'product', 'posts_per_page' => -1, 'tax_query' => $tax_query, 'orderby' => 'meta_value_num', 'meta_key' => 'capacity', 'order' => 'asc');
 										$the_query2 = new WP_Query($args); 
 										
 				                  		if ( $the_query2->have_posts() ) : ?>
@@ -124,9 +124,9 @@ get_header(); ?>
 					    </div>
 					    <div role="tabpanel" class="tab-pane" id="industrialtanks">
 					    	<div class="productcontent">
-				              <div class="row">
+				              <div class="row archivetitle">
 				                <div class="col-xs-12">
-				                   <div class="product_bg"></div>
+				                   <h2>Industrial Tanks</h2>
 				                </div>
 				              </div>
 				                  <?php 
@@ -138,7 +138,7 @@ get_header(); ?>
 															),
 														);
 																
-										$args = array('post_type' => 'product', 'posts_per_page' => -1, 'tax_query' => $tax_query);
+										$args = array('post_type' => 'product', 'posts_per_page' => -1, 'tax_query' => $tax_query, 'orderby' => 'meta_value_num', 'meta_key' => 'capacity', 'order' => 'asc');
 										$the_query2 = new WP_Query($args); 
 										
 				                  		if ( $the_query2->have_posts() ) : ?>
