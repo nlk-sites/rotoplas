@@ -759,6 +759,26 @@ label, .container .gform_wrapper .top_label .gfield_label{
 	padding: 32px 0px 0px 26px;
 }
 
+.careersform .gform_body
+{
+	width: 48%;
+	float: left;
+	padding-right: 2%;
+}
+
+.careersform .gform_wrapper .gform_footer
+{
+	width: 43%;
+	float: left;
+	clear: none;
+	margin-top: 107px;
+}
+
+.container .careersform .gform_wrapper .gform_footer input.button, .container .careersform .gform_wrapper .gform_footer input[type="submit"] 
+{
+	float: left;
+}
+
 .faqbutton{
     color: #0B0C32;
     background: #FFF none repeat scroll 0% 0%;
