@@ -1106,6 +1106,7 @@ ul.pdfdownloads
 ul.pdfdownloads li
 {
 	margin-bottom: 10px;
+	list-style: none;
 }
 
 ul.pdfdownloads li a
@@ -1113,12 +1114,12 @@ ul.pdfdownloads li a
 	padding-left: 40px;
 	color: #231F20;
 	font-size: 15px;
-	line-height: 22px;
+	line-height: 30px;
 	font-family: "Signika",sans-serif;
 	font-weight: 400;
 	display: block;
 	min-height: 40px;
-	background: url("../images/pdf_icon2.png") 0 5px no-repeat transparent;	
+	background: url("../images/pdf_icon2.png") 0 0px no-repeat transparent;	
 }
 
 .imagecontent1{
