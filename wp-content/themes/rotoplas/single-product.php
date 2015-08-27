@@ -130,7 +130,7 @@ get_header(); ?>
 															    			?>
 												  </div>
 												  <div class="colors">
-												    	<h2>Product Information</h2>				  
+												    	<h2 style="margin-top: 30px;">Product Information</h2>				  
 												    	<ul class="pdfdownloads">
 												    		<?php
 														    	if(get_field('chemical_resistance_quick'))
