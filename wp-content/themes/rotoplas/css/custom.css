@@ -652,7 +652,7 @@ span.rightarrow{
 	padding-left: 0px;
 }
 
-label{
+label, .container .gform_wrapper .top_label .gfield_label{
 	color: #fff;
 	font-size: 15px;
 	line-height: 19px;
