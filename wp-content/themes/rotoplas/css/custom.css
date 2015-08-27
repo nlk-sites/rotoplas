@@ -605,7 +605,7 @@ span.rightarrow{
 }
 
 /*Careers Page*/
-.form-control {
+.form-control, .container .gform_wrapper input[type="email"], .container .gform_wrapper input[type="number"],  .container .gform_wrapper input[type="password"],  .container .gform_wrapper input[type="tel"],  .container .gform_wrapper input[type="text"],  .container .gform_wrapper input[type="url"], .container .gform_wrapper textarea {
     display: block;
     font-size: 14px;
     line-height: 1.42857;
@@ -729,7 +729,7 @@ label{
 	margin-left: 10px;
 }
 
-.contactformbutton {
+.contactformbutton, .container .gform_wrapper .gform_footer input.button, .container .gform_wrapper .gform_footer input[type="submit"] {
     color: #FFF;
     background: #00BDF6 none repeat scroll 0% 0%;
     xwidth: 124px;
