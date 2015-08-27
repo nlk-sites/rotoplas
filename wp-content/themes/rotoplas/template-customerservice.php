@@ -32,14 +32,14 @@ get_header(); ?>
                   <div class="col-xs-12 col-sm-5 col-md-5">
                       <img class="img-responsive maplocation" src="<?php bloginfo('template_url'); ?>/images/customermap.png">
                       <div class="address">
-                        <h3><small>Phone</small>(209) 723 5000</h3>
-                        <h4>2651 Cooper Av.</h4>
+                        <h3><small>Call</small>(209) 723 5000</h3>
+                        <h4>2651 Cooper Ave</h4>
                         <h5>Merced, California</h5>
                       </div> 
                       <div class="row"> 
                         <div class="col-xs-12 col-sm-12 col-md-12">
                           <div class="dealers">
-                            <h2>AMELIA ESTREDA</h2>
+                            <h2>AMELIA ESTREDA<br><span class="title">Customer Service Rep</span></h2>
                             <p class="phone">(209) 209 777 6119</p>
                             <p class="email"><a href="mailto: aestrada@rotoplas.com">aestrada@rotoplas.com</a></p>
                           </div>
