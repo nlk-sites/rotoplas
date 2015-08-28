@@ -1657,6 +1657,31 @@ table.spectable
 	margin-left: 0px;
 }
 
+.product-hero .dealers
+{
+	min-height: 165px;
+	position: relative;
+	text-align: center;
+}
+
+.product-hero .dealers h2 {
+    color: #FFF;
+    line-height: 26px;
+    font-family: "Signika",sans-serif;
+    font-weight: 700;
+    padding: 10px 26px;
+    font-size: 22px;
+}
+
+.product-hero .dealers .btn-primary
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width: 150px;
+	margin-top: 20px;
+}
+
 @media (min-width:768px) 
 {
 	.imagecontent1.topviewimg{
