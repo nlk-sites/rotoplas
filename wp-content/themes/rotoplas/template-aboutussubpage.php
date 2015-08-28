@@ -29,7 +29,7 @@ get_header(); ?>
 	                  </div>
 	                  <div class="col-xs-12 col-sm-8 col-md-8 text">
 	                      <?php the_content()?>
-	                      <a href="<?php bloginfo('url'); ?>/about-us" class="btn contentbutton">About us</a>
+	                      <a href="<?php bloginfo('url'); ?>/about-us" class="btn contentbutton">About Us</a>
 	                      <a href="<?php bloginfo('url'); ?>/about-us/mission-vision" class="btn contentbutton mission-button">Mission / Vision</a>
 	                      <a href="<?php bloginfo('url'); ?>/about-us/careers" class="btn contentbutton careersbutton">Careers</a>     
 	                  </div>
@@ -41,7 +41,7 @@ get_header(); ?>
      </div>  
     </section>
     <style>
-    	body.page-id-355 .careersbutton, body.page-id-361 .mission-button
+    	body.page-id-355 .careersbutton, body.page-id-361 .mission-button, body.page-id-361 .contentbutton
     	{
     		display: none;
     	}
