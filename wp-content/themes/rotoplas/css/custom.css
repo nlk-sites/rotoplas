@@ -623,6 +623,12 @@ span.rightarrow{
     color: #fff;
 }
 
+.container .gform_wrapper .top_label input.medium, .container .gform_wrapper .top_label select.medium
+{
+	width: 97.5%;
+	color: #FFF;
+}
+
 .careertext{
 	padding: 0px;
 }
