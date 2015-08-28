@@ -1673,6 +1673,19 @@ table.spectable
     font-size: 22px;
 }
 
+.product-hero
+{
+	margin-top: 50px;	
+}
+
+.product-hero .img-responsive
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	max-width: 350px;	
+}
+
 .product-hero .dealers .btn-primary
 {
 	margin-left: auto;
