@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Contact
+ * Template Name: Distributor
  *
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
@@ -19,7 +19,7 @@ get_header(); ?>
             <div class="col-xs-12 col-sm-12 col-md-12">
               <div class="row">
               <div class="col-xs-12 contenttitle">
-                <h1 class="contact">CONTACT</h1>
+                <h1 class="contact">DISTRIBUTOR</h1>
                 <h2>For Additional Information</h2>
               </div>
               </div>
@@ -31,12 +31,10 @@ get_header(); ?>
                   </div>
                   <div class="col-xs-12 col-sm-7 col-md-7">
                       <div class="contactaddress">
-                        <h1><small>Phone</small>(209) 723 5000</h1>
+                        <h1><small>CALL</small>(209) 723 5000</h1>
                         <h2>2651 Cooper Av.</h2>
                         <h3>Merced, California</h3>
-                      </div> 
-                        <a href="<?php bloginfo('url'); ?>/distributor" class="btn faqbutton">Become a Distributor</a>
-                        <?php /* ?><a href="<?php bloginfo('url'); ?>/warranty" class="btn faqbutton">Product and warranty information</a><?php */ ?>
+                      </div>
                   </div>
                 </div>    
               </div>
