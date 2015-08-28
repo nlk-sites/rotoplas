@@ -838,6 +838,12 @@ label, .container .gform_wrapper .top_label .gfield_label{
 	xpadding-left: 60px;
 }
 
+.contactaddress h2 span
+{
+	display: block;
+	margin-bottom: 10px;
+}
+
 .contactaddress h3 {
 	color: #FFF;
 	font-size: 15.47px;
