@@ -14,7 +14,7 @@
 get_header(); ?>
 	<style type="text/css">
 		.wrapper.literaturecontent {
-		    background: transparent url("<?php bloginfo('template_url'); ?>/images/newcontent_bg.jpg") no-repeat scroll 0px 0px / cover;
+		    background: transparent url("<?php bloginfo('template_url'); ?>/images/newcontent_bg2.jpg") no-repeat scroll 0px 0px / cover;
 		    min-height: 1154px;
 		}
 	</style>
