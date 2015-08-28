@@ -28,7 +28,7 @@ get_header(); ?>
 					  <ul class="nav nav-tabs" role="tablist">
 					    <li role="presentation"><a href="<?php bloginfo('url'); ?>/products/water-storage-tanks/">Water Tanks</a></li>
 					    <li role="presentation"><a href="<?php bloginfo('url'); ?>/products/agriculture-storage-tanks/">Agricultural Tanks</a></li>
-					    <li role="presentation" class="active"><a href="#industrialtanks" aria-controls="industrialtanks" role="tab" data-toggle="tab">Industrial Tanks</a></li>
+					    <li role="presentation" class="active"><a href="#industrialtanks" aria-controls="industrialtanks" role="tab" data-toggle="tab">Chemical Tanks</a></li>
 					    <?php
 					    	if(get_field('drawing_specs'))
 							{
@@ -44,7 +44,7 @@ get_header(); ?>
 					    	<div class="productcontent">
 				              <div class="row archivetitle">
 				                <div class="col-xs-12">
-				                   <h2>Industrial Tanks</h2>
+				                   <h2>Chemical Tanks</h2>
 				                </div>
 				              </div>
 				                  <?php 
