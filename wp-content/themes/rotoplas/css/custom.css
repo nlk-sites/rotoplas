@@ -605,7 +605,7 @@ span.rightarrow{
 }
 
 /*Careers Page*/
-.form-control, .container .gform_wrapper input[type="email"], .container .gform_wrapper input[type="number"],  .container .gform_wrapper input[type="password"],  .container .gform_wrapper input[type="tel"],  .container .gform_wrapper input[type="text"],  .container .gform_wrapper input[type="url"], .container .gform_wrapper textarea {
+.form-control, .container .gform_wrapper input[type="email"], .container .gform_wrapper input[type="number"],  .container .gform_wrapper input[type="password"],  .container .gform_wrapper input[type="tel"],  .container .gform_wrapper input[type="text"],  .container .gform_wrapper input[type="url"], .container .gform_wrapper textarea, .container .gform_wrapper select {
     display: block;
     font-size: 14px;
     line-height: 1.42857;
