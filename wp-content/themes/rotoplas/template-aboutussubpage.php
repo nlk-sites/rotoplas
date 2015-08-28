@@ -41,7 +41,7 @@ get_header(); ?>
      </div>  
     </section>
     <style>
-    	body.page-id-355 .careersbutton, body.page-id-361 .mission-button, body.page-id-361 .contentbutton
+    	body.page-id-355 .careersbutton, body.page-id-361 .mission-button, body.page-id-355 .contentbutton
     	{
     		display: none;
     	}
