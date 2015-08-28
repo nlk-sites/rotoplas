@@ -28,7 +28,7 @@ get_header(); ?>
 					  <ul class="nav nav-tabs" role="tablist">
 					    <li role="presentation" class="active"><a href="#watertanks" aria-controls="watertanks" role="tab" data-toggle="tab">Water Tanks</a></li>
 					    <li role="presentation"><a href="<?php bloginfo('url'); ?>/products/agriculture-storage-tanks/">Agricultural Tanks</a></li>
-					    <li role="presentation"><a href="<?php bloginfo('url'); ?>/products/industrial-tanks/">Chemical Tanks</a></li>
+					    <li role="presentation"><a href="<?php bloginfo('url'); ?>/products/chemical-storage-tanks/">Chemical Tanks</a></li>
 					    <?php
 					    	if(get_field('drawing_specs'))
 							{
