@@ -35,7 +35,7 @@ get_header(); ?>
                       <div class="row"> 
                         <div class="col-xs-12">
                           <div class="dealers">
-                            <h2>BURCE HALLINAN<br><span class="title">Regional Sales Manager - CA</span></h2>
+                            <h2>BRUCE HALLINAN<br><span class="title">Regional Sales Manager - CA</span></h2>
                             <p class="phone">(209) 205 0500</p>
                             <p class="email"><a href="mailto: bhallinan@rotoplas.com">bhallinan@rotoplas.com</a></p>
                           </div>
