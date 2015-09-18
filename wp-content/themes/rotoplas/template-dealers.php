@@ -50,6 +50,15 @@ get_header(); ?>
                           </div>
                         </div> 
                       </div>
+                      <div class="row">   
+                        <div class="col-xs-12">
+                          <div class="dealers">
+                            <h2>COY CLARKE<br><span class="title">Regional Sales Manager - TX</span></h2>
+                            <p class="phone">(972) 854 2815</p>
+                            <p class="email"><a href="mailto: cclark@rotoplas.com">cclark@rotoplas.com</a></p>
+                          </div>
+                        </div> 
+                      </div>
                   </div>
                 </div>    
              </div>
