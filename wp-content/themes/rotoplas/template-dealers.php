@@ -44,7 +44,7 @@ get_header(); ?>
                       <div class="row">   
                         <div class="col-xs-12">
                           <div class="dealers">
-                            <h2>SEAN CLARKE<br><span class="title">National Account Manager</span></h2>
+                            <h2>SEAN CLARK<br><span class="title">National Account Manager</span></h2>
                             <p class="phone">(949) 292 9354</p>
                             <p class="email"><a href="mailto: sclark@rotoplas.com">sclark@rotoplas.com</a></p>
                           </div>
@@ -53,7 +53,7 @@ get_header(); ?>
                       <div class="row">   
                         <div class="col-xs-12">
                           <div class="dealers">
-                            <h2>COY CLARKE<br><span class="title">Regional Sales Manager - TX</span></h2>
+                            <h2>COY CLARK<br><span class="title">Regional Sales Manager - TX</span></h2>
                             <p class="phone">(972) 854 2815</p>
                             <p class="email"><a href="mailto: cclark@rotoplas.com">cclark@rotoplas.com</a></p>
                           </div>
