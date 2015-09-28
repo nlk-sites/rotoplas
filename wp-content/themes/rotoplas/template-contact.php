@@ -32,7 +32,7 @@ get_header(); ?>
                   <div class="col-xs-12 col-sm-7 col-md-7">
                       <div class="contactaddress">
                         <h2><span>CALL</span>(209) 723 5000</h2>
-                        <h2>2651 Cooper Av.</h2>
+                        <h2>2651 Cooper Ave.</h2>
                         <h2>Merced, California</h2>
                       </div> 
                         <a href="<?php bloginfo('url'); ?>/distributor" class="btn faqbutton">Become a Distributor</a>
