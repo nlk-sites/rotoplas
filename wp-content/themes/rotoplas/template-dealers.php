@@ -59,6 +59,15 @@ get_header(); ?>
                           </div>
                         </div> 
                       </div>
+                      <div class="row">   
+                        <div class="col-xs-12">
+                          <div class="dealers">
+                            <h2>DAVID WRIGHT<br><span class="title">Regional Sales Manager - GA</span></h2>
+                            <p class="phone">(678) 206 7378</p>
+                            <p class="email"><a href="mailto: dwright@rotoplas.com">dwright@rotoplas.com</a></p>
+                          </div>
+                        </div> 
+                      </div>
                   </div>
                 </div>    
              </div>
