@@ -39,7 +39,7 @@ get_header(); ?>
                       <div class="row"> 
                         <div class="col-xs-12 col-sm-12 col-md-12">
                           <div class="dealers">
-                            <h2>AMELIA ESTREDA<br><span class="title">Customer Service Rep</span></h2>
+                            <h2>AMELIA ESTRADA<br><span class="title">Customer Service Rep</span></h2>
                             <p class="phone">(209) 777 6119</p>
                             <p class="email"><a href="mailto: aestrada@rotoplas.com">aestrada@rotoplas.com</a></p>
                           </div>
