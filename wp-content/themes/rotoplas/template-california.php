@@ -16,36 +16,30 @@ get_header(); ?>
 	<section data-role="main" class="wrapper content california-landing">
       <div class="container">
         <div class="row">
+	    	<div class="col-xs-12 text-center">
+	        	<h1>Agricultural Storage Solutions from Rotoplas</h1>
+	       	</div>
+        </div>
+        <div class="row">
             <div class="col-xs-12 col-sm-7 col-md-8">
-              <div class="row hidden-xs hidden-sm">
-	              <div class="col-xs-12 text-center">
-	                <h2>Agricultural Storage Solutions from Rotoplas</h2>
-	              </div>
-              </div>
               <div class="row">
               	<div class="col-xs-12">
-                  <img src="http://nlkdev.net/rotoplas/wp-content/uploads/2015/08/slide21.jpg" class="banner-img" />
+                  <img src="http://nlkdev.net/rotoplas/wp-content/uploads/2015/08/slide21.jpg" class="img-responsive banner-img" />
                 </div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-5 col-md-4">
                 <div class="row sidebar">
                  <div class="col-xs-12">
-	                	<h1 class="newsicon">Find a Distributor</h1>
+	                <h3>Find a Distributor</h3>
+	                <?php echo do_shortcode('[gravityform id="5" title="false" description="false"]'); ?>
 	              </div>
-	              <div class="col-xs-12 col-sm-6 col-md-12 eachNews">
-						<div class="row eachcontent">
-							<div class="col-xs-12">
-								<?php echo do_shortcode('[gravityform id="5" title="false" description="false"]'); ?>
-							</div>
-						</div>
-					</div>
                 </div>
             </div>
       	</div>
       	<div class="row bottom-content">
       		<div class="col-xs-12">
-      			<div class="row">
+      			<div class="row list-content">
 		      		<div class="col-xs-12 col-sm-8 col-md-7">
 		      			<ul>
 			      			<li>Strong, durable construction</li>
@@ -54,7 +48,7 @@ get_header(); ?>
 						</ul>
 		      		</div>
 		      		<div class="col-xs-12 col-sm-4 col-md-5">
-		      			<img src="<?php bloginfo('template_url'); ?>/images/made_in_usa.png" class="madeinusa"/>
+		      			<img src="<?php bloginfo('template_url'); ?>/images/made_in_usa.png" class="img-responsive madeinusa"/>
 		      		</div>
 	      		</div>
 	      		<div class="row">

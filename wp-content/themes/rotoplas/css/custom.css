@@ -1701,23 +1701,33 @@ table.spectable
 	
 }
 
-.california-landing h2
+.california-landing h1
 {
 	color: #FFF;
-	font-size: 21.3px;
-	line-height: 26px;
-	font-family: "Signika";
-	font-weight: 700;
 	padding: 0px 20px;
 	text-align: center;
 	text-transform: uppercase;
-	margin: 10px 0px 20px;
+	margin: 45px 0px 20px;
+}
+
+.california-landing h3
+{
+	color: #FFF;
+	font-size: 18px
+	line-height: 22px;
+	margin: 0px 0px 15px;
 }
 
 .california-landing .bottom-content
 {
-	margin : 25px 0px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 	
+}
+
+.california-landing .bottom-content ul
+{
+	padding-left: 15px;	
 }
 
 .california-landing .bottom-content ul li
@@ -1741,6 +1751,26 @@ table.spectable
 	line-height: 20px;
 	font-family: "Signika",sans-serif;
 	font-weight: 400;
+}
+
+.california-landing  label
+{
+	display: none !important;	
+}
+
+.california-landing  .list-content
+{
+	margin-bottom: 25px;
+}
+
+.california-landing .gform_wrapper
+{
+	margin-top: 0px;	
+}
+
+.california-landing .sidebar
+{
+	margin-top: 0px;	
 }
 
 @media (min-width:768px) 
@@ -1931,5 +1961,10 @@ table.spectable
 	{
 		float: none;
 		margin: 15px auto;
+	}
+	
+	.california-landing .banner-img
+	{
+		margin: 15px auto 20px;
 	}
 }
