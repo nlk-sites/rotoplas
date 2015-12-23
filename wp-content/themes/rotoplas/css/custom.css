@@ -1694,6 +1694,55 @@ table.spectable
 	margin-top: 20px;
 }
 
+/* California Landing */
+
+.california-landing
+{
+	
+}
+
+.california-landing h2
+{
+	color: #FFF;
+	font-size: 21.3px;
+	line-height: 26px;
+	font-family: "Signika";
+	font-weight: 700;
+	padding: 0px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10px 0px 20px;
+}
+
+.california-landing .bottom-content
+{
+	margin : 25px 0px;
+	
+}
+
+.california-landing .bottom-content ul li
+{
+	color: #FFF;
+	font-size: 16px;
+	line-height: 20px;
+	font-family: "Signika",sans-serif;
+	font-weight: 400;	
+}
+
+.california-landing .bottom-content img.madeinusa
+{
+	float: right;
+}
+
+.california-landing .bottom-content p
+{
+	color: #FFF;
+	font-size: 16px;
+	line-height: 20px;
+	font-family: "Signika",sans-serif;
+	font-weight: 400;
+}
+
 @media (min-width:768px) 
 {
 	.imagecontent1.topviewimg{
@@ -1875,5 +1924,12 @@ table.spectable
 	.product-hero .img-responsive
 	{
 		max-width: 250px;	
+	}
+	
+		
+	.california-landing .bottom-content img.madeinusa
+	{
+		float: none;
+		margin: 15px auto;
 	}
 }
