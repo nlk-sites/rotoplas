@@ -24,7 +24,7 @@ get_header(); ?>
             <div class="col-xs-12 col-sm-7 col-md-8">
               <div class="row">
               	<div class="col-xs-12">
-                  <img src="http://nlkdev.net/rotoplas/wp-content/uploads/2015/09/35years-hires.jpg" class="img-responsive banner-img" />
+                  <img src="<?php bloginfo('template_url'); ?>/images/rotoplas-order-banner.jpg" class="img-responsive banner-img" />
                 </div>
               </div>
             </div>
