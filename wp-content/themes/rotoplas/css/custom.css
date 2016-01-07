@@ -735,6 +735,12 @@ label, .container .gform_wrapper .top_label .gfield_label{
 	margin-left: 10px;
 }
 
+.wrapper.content h1.getquote{
+	min-height: 28px;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
 .contactformbutton, .container .gform_wrapper .gform_footer input.button, .container .gform_wrapper .gform_footer input[type="submit"] {
     color: #FFF;
     background: #00BDF6 none repeat scroll 0% 0%;
@@ -1772,6 +1778,94 @@ table.spectable
 {
 	margin-top: 0px;	
 }
+
+/* Get a Quote */
+.getquoteform .gform_wrapper .chosen-container
+{
+	display: block;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #032b5f;
+    background-image: none;
+    border: 1px solid #032b5f;
+    border-radius: 0px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    min-height: 34px;
+    width: 97.5%;
+    padding: 6px 12px;
+    margin-bottom: 4px;
+    color: #fff;
+}
+
+.getquoteform .gform_wrapper .chosen-container .chosen-drop {
+    position: absolute;
+    top: 100%;
+    left: -9999px;
+    z-index: 1010;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #AAA;
+    border-top: 0;
+    background: #FFF;
+    box-shadow: 0 4px 5px rgba(0,0,0,.15);
+}
+
+.getquoteform .gform_wrapper .chosen-container-multi .chosen-choices {
+    position: relative;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto!important;
+    height: 1%;
+    border: 0px solid #AAA;
+    background: none !important;
+    cursor: text;
+    color: #FFF;
+}
+
+.getquoteform .gform_wrapper .chosen-container-active .chosen-choices {
+    border: 0px solid #5897FB;
+    box-shadow: none;
+}
+
+.getquoteform .gform_wrapper .chosen-container.chosen-with-drop .chosen-drop {
+    background: #032b5f;
+}
+
+.getquoteform .gform_wrapper .field_description_below .gfield_description
+{
+	color: #FFF;
+	margin-bottom: 12px;
+}
+
+.getquoteform .gform_wrapper .chosen-container-multi .chosen-choices li.search-field input[type=text] {
+    margin: 1px 0;
+    padding: 5px;
+    height: auto;
+    outline: 0;
+    border: 0!important;
+    background: 0 0!important;
+    box-shadow: none;
+    color: #FFF;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: normal;
+    border-radius: 0;
+}
+
+.getquoteform .gform_wrapper .chosen-container .chosen-results li.no-results {
+    display: list-item;
+    background: #032b5f;
+}
+	
 
 @media (min-width:768px) 
 {
