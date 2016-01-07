@@ -1854,7 +1854,7 @@ table.spectable
     border: 0!important;
     background: 0 0!important;
     box-shadow: none;
-    color: #FFF;
+    color: #FFF !important;
     font-size: 14px;
     font-family: sans-serif;
     line-height: normal;
