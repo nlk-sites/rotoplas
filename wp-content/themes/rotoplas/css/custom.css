@@ -737,7 +737,7 @@ label, .container .gform_wrapper .top_label .gfield_label{
 
 .wrapper.content h1.getquote{
 	min-height: 28px;
-	padding-left: 0px;
+	padding-left: 0px !important;
 	margin-left: 0px;
 }
 
