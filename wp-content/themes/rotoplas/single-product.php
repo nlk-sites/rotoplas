@@ -169,7 +169,7 @@ get_header(); ?>
 												  <?php if( get_field('show_product_information') ): ?>
 													  <div class="colors system_includes">
 													  	<h2 style="margin-top: 30px;">System Includes</h2>
-													  	<?php the_field('product_instruction_sheet'); ?>
+													  	<?php the_field('product_information'); ?>
 													  </div>
 												  <?php endif; ?>
 						    			</div>		
