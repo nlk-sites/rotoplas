@@ -156,8 +156,22 @@ get_header(); ?>
 																	<?php
 																}
 														    ?>
+														    <?php
+														    	if(get_field('product_instruction_sheet'))
+																{
+																	?>
+																		<li><a href="<?php the_field('product_instruction_sheet'); ?>" target="_blank"> Product Instruction Sheet </a></li>
+																	<?php
+																}
+														    ?>
 												    	</ul>			
 												  </div>
+												  <?php if( get_field('show_product_information') ): ?>
+													  <div class="colors system_includes">
+													  	<h2 style="margin-top: 30px;">System Includes</h2>
+													  	<?php the_field('product_instruction_sheet'); ?>
+													  </div>
+												  <?php endif; ?>
 						    			</div>		
 						    		</div>
 						    		</div>
