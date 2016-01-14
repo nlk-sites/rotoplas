@@ -1866,6 +1866,12 @@ table.spectable
     background: #032b5f;
 }
 	
+.system_includes
+{
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;	
+}
 
 .system_includes ul
 {
