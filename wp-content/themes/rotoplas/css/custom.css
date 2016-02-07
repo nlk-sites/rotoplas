@@ -1868,14 +1868,15 @@ table.spectable
 	
 .system_includes
 {
-	max-width: 350px;
-	margin-left: auto;
-	margin-right: auto;	
+	xmax-width: 350px;
+	xmargin-left: auto;
+	xmargin-right: auto;
+	margin-bottom: 30px;	
 }
 
 .system_includes ul
 {
-	margin-left: 50px;
+	xmargin-left: 50px;
 	padding-left: 0px;
 }
 
@@ -1884,13 +1885,10 @@ table.spectable
 	margin-bottom: 5px;
 	list-style: none;
 	text-align: center;
-	font-size: 15px;
-    line-height: 30px;
+	font-size: 13px;
+    line-height: 17px;
     font-family: "Signika",sans-serif;
     font-weight: 400;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 320px;
     text-align: left;
     display: block;
     color: #231F20;
@@ -1899,8 +1897,7 @@ table.spectable
 .system_includes img
 {
 	display: block;
-	margin: 5px 0px 10px 50px;
-	max-width: 320px;
+	margin: 5px 0px 10px 0px;
 }
 
 .wrapper.menucontainer span.logo-circle {
@@ -1910,6 +1907,333 @@ table.spectable
     top: 20px;
     width: 124px;
     right: 20px;
+}
+
+/* New Product Design */
+
+.newproductcontent .tab-content h2
+{
+	background: none;
+	font-size: 14px;
+	line-height: 17px;
+	border-bottom: 1px solid #034ea2;
+	color: #034ea2;	
+	text-transform: uppercase;
+	padding: 5px 0px;
+	width: auto;
+}
+
+.newproductcontent .tab-content > .tab-pane
+{
+	padding-left: 15px;
+	padding-right: 15px; 
+}
+
+.rotoplasview .view_desc h2
+{
+	display: none;	
+}
+
+.newproductcontent .tab-content h3
+{
+	padding-left: 0px;
+	margin-top: 0px
+	font-size: 36px;
+	line-height: 40px;
+}
+
+.newproductcontent ul.tablist, .newproductcontent .product_desc ul {
+    padding: 0px 0px 0px 15px;
+}
+
+.titlewithbtns
+{
+	border-bottom: 1px solid #034ea2;
+	margin-bottom: 25px;	
+}
+
+.newproductcontent .tab-content .titlewithbtns h2
+{
+	border-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 50px;
+}
+
+.titlewithbtns ul, .network ul
+{
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	float: right;
+}
+
+.titlewithbtns ul li, .network ul li
+{
+	float: left;
+	margin: 25px 5px 15px;
+	list-style: none;
+}
+
+.network ul li
+{
+	margin: 0px 5px 5px;
+}
+
+.titlewithbtns ul li:last-child, .network ul li:last-child
+{
+	margin-right: 0px;
+}
+
+.btn.btn-primary.btn-blue
+{
+	color: #FFF;
+	background: #00BDF6;
+	min-height: 26px;
+	padding: 8px 33px;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	text-align: center;
+	border-radius: 15px;
+	float: right;
+	border: 0px solid #FFF;
+}
+
+.btn.btn-primary.btn-white
+{
+	background: #FFF;
+	color: #003684;	
+}
+
+.newproductcontent .tab-content h4
+{
+	color: #034ea2;
+	font-size: 16px;
+	line-height: 20px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+}
+
+.newproductcontent ul.pdfdownloads2
+{
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-bottom: 30px;
+}
+
+.newproductcontent ul.pdfdownloads2 li
+{
+	list-style: none;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.newproductcontent ul.pdfdownloads2 li a
+{
+	font-size: 13px;
+	line-height: 20px;
+	color: #231f20;
+	text-decoration: underline;
+}
+
+.newproductcontent table.spectable td
+{
+	padding: 5px;
+	font-size: 13px;
+	line-height: 17px;
+	background: #e5e5e5;		
+}
+
+.newproductcontent span.color-block
+{
+	height: 24px;
+	width: 24px;
+	border-radius: 12px;
+	margin: 5px;
+}
+
+.newproductcontent ul.tablistlastcontent
+{
+	padding-left: 15px;	
+}
+
+.newproductcontent  #overview .warranty {
+    max-width: 245px;
+	display: block;
+	margin: 20px 5px;
+	float: left;
+}
+
+.newproductcontent  #overview .warranty:first-child
+{
+	margin-left: 0px;
+}
+
+.newproductcontent  #overview .warranty h3 {
+    color: #FFF;
+    font-size: 40px;
+    line-height: 44px;
+    font-family: "Signika";
+    font-weight: 700;
+    background: #15BEF0 none repeat scroll 0% 0%;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    padding: 4px 8px;
+    width: 115px;
+    text-align: center;
+    float: left;
+    margin-top: 0px;
+}
+
+.newproductcontent .warranty h3 span
+{
+	font-weight: 700;
+}
+
+.newproductcontent .warranty h4 {
+    color: #15BEF0;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Signika";
+    font-weight: 700;
+    padding: 0px;
+    margin-bottom: 0px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.newproductcontent .warranty p
+{
+	clear:both;
+	color: #9f9f9f;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: left;
+	margin-top: 10px;	
+}
+
+.newproductcontent .warranty:after
+{
+	clear: both;	
+}
+
+.rotoplasview
+{
+	margin-bottom: 0px;
+}
+
+.newproductcontent .tab-content .rotoplasview .view_desc h4
+{
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 15px;
+	font-size: 21px;
+	line-height: 25px;
+	color: #034ea2;
+	font-weight: 700;
+}
+
+.rotoplasview .view_desc
+{
+	padding-top: 15px;
+	padding-bottom: 20px; 
+}
+
+.rotoplasview .view_image img
+{
+	margin-top: 0px !important;
+	margin-bottom: 25px;
+}
+
+.newproductcontent .tab-content h1 {
+    color: #00BDF6;
+    font-size: 36px;
+    padding-left: 0px;
+    line-height: 40px;
+    font-family: "Signika",sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    background: none;
+}
+
+.productSlider .bx-wrapper 
+{
+	margin-bottom: 15px;
+	border: 1px solid #e5e5e5;
+	width: 99% !important;
+	margin-left: 0px;
+}
+
+.productSlider .bx-wrapper .bx-viewport
+{
+	box-shadow: none;
+	border: 0px solid #FFF;
+	left: 0px;
+}
+
+.productSlider .slider-caption
+{
+	background: #e5e5e5;
+	padding: 15px 20px;
+}
+
+.productSlider #bx-pager ul
+{
+	margin-left: 0px;
+	padding-left: 0px;	
+}
+
+.productSlider #bx-pager ul li
+{
+	list-style: none;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	
+}
+
+.productSlider #bx-pager ul li:first-child
+{
+	margin-left: 0px;
+}
+
+.productSlider #bx-pager ul li a
+{
+	display: block;
+	padding: 2px;
+	border: 1px solid #ececec;
+	padding: 4.5px;
+	
+}
+
+.productSlider .bx-wrapper img
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.network
+{
+	background: #00378B;
+	color: #FFF;
+	padding: 30px 0px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.network p
+{
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 25px;
+	color: #FFF;
+}
+
+.newproductcontent .tab-content, .newproductcontent .tab-content #overview
+{
+	border-radius: 0px 0px 10px 10px;	
 }
 
 @media (min-width:768px) 
@@ -2105,5 +2429,15 @@ table.spectable
 	.california-landing .banner-img
 	{
 		margin: 15px auto 20px;
+	}
+	
+	.newproductcontent .tab-content .titlewithbtns h2
+	{
+		margin-top: 10px;
+	}
+	
+	.titlewithbtns ul li, .network ul li
+	{
+		margin-bottom: 5px;
 	}
 }

@@ -28,8 +28,8 @@
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="xhttps://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="xhttps://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 
@@ -37,6 +37,8 @@
 <?php wp_head(); ?>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.mobile.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/bxslider/jquery.bxslider.min.js"></script>
+<link href="<?php bloginfo('template_url'); ?>/bxslider/jquery.bxslider.css" rel="stylesheet" />
 </head>
 <script type="text/javascript">
 	jQuery(document).ready(function(){
