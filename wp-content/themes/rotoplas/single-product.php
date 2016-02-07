@@ -39,8 +39,8 @@ get_header(); ?>
 						    			<div class="row">
 						    				<div class="col-xs-12 col-sm-6 col-md-6 col-md-push-6 col-sm-push-6">
 								    			<ul>
-								    				<li><a href="<?php bloginfo('url'); ?>/dealers/" class="btn btn-primary btn-blue btn-white">Find a Dealer</a></li>
-									    			<li><a href="<?php bloginfo('url'); ?>/customer-service/" class="btn btn-primary btn-blue btn-white">Get a quote</a></li>
+								    				<li><a href="<?php bloginfo('url'); ?>/dealers/" class="btn btn-primary btn-blue">Find a Dealer</a></li>
+									    			<li><a href="<?php bloginfo('url'); ?>/customer-service/" class="btn btn-primary btn-blue">Get a quote</a></li>
 								    			</ul>
 								    		</div>
 								    		<div class="col-xs-12 col-sm-6 col-md-6 col-md-pull-6 col-sm-pull-6">
