@@ -34,7 +34,7 @@ get_header(); ?>
 					    <li role="presentation"><a href="<?php bloginfo('url'); ?>/products/water-storage-tanks/">Water Tanks</a></li>
 					    <li role="presentation" class="active"><a href="#agriculturaltanks" aria-controls="agriculturaltanks" role="tab" data-toggle="tab">Agricultural Tanks</a></li>
 					    <li role="presentation"><a href="<?php bloginfo('url'); ?>/products/chemical-storage-tanks/">Chemical Tanks</a></li>
-					    <li role="presentation"><a href="<?php bloginfo('url'); ?>/products/rainwater-storage-tanks/">Rainwater Tanks</a></li>
+					    <li role="presentation"><a href="<?php bloginfo('url'); ?>/products/rain-harvesting-tanks/">Rain Harvesting Tanks</a></li>
 					    <?php
 					    	if(get_field('drawing_specs'))
 							{

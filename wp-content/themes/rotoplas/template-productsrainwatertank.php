@@ -29,7 +29,7 @@ get_header(); ?>
 					    <li role="presentation"><a href="<?php bloginfo('url'); ?>/products/water-storage-tanks/">Water Tanks</a></li>
 					    <li role="presentation"><a href="<?php bloginfo('url'); ?>/products/agriculture-storage-tanks/">Agricultural Tanks</a></li>
 					    <li role="presentation"><a href="<?php bloginfo('url'); ?>/products/chemical-storage-tanks/">Chemical Tanks</a></li>
-					    <li role="presentation" class="active"><a href="#rainwatertanks" aria-controls="rainwatertanks" role="tab" data-toggle="tab">Rainwater Tanks</a></li>
+					    <li role="presentation" class="active"><a href="#rainwatertanks" aria-controls="rainwatertanks" role="tab" data-toggle="tab">Rain Harvesting Tanks</a></li>
 					    
 					    <?php
 					    	if(get_field('drawing_specs'))
@@ -46,7 +46,7 @@ get_header(); ?>
 					    	<div class="productcontent">
 				              <div class="row archivetitle">
 				                <div class="col-xs-12">
-				                   <h2>Rainwater Tanks</h2>
+				                   <h2>Rain Harvesting Tanks</h2>
 				                </div>
 				              </div>
 				                  <?php 
@@ -54,7 +54,7 @@ get_header(); ?>
 															array(
 																'taxonomy' => 'product-category',
 																'field'    => 'slug',
-																'terms'    => 'rainwater-tanks',
+																'terms'    => 'rainharvesting-tanks',
 															),
 														);
 																

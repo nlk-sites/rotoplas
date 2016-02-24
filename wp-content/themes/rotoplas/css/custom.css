@@ -2236,6 +2236,21 @@ table.spectable
 	border-radius: 0px 0px 10px 10px;	
 }
 
+.productmediacontainer
+{
+	position: relative;
+}
+
+.system_kit
+{
+	position: absolute;
+	bottom: 20px;
+	right: 25px;
+	height: 127px;
+	width: 125px;
+	background: url('../images/system_kit_icon.png') 0 0 no-repeat transparent;	
+}
+
 @media (min-width:768px) 
 {
 	.imagecontent1.topviewimg{

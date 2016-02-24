@@ -178,27 +178,35 @@ get_header(); ?>
 													 	// loop through the rows of data
 													 	$thumbshtml = '';
 													 	$imgcount = 0;
-													 	echo '<ul class="bxslider">';
-													    while ( have_rows('product_slides') ) : the_row();
-															?>
-																		<?php 
-																			$productImage = get_sub_field('product_image');
-																			
-																			if($productImage)
-																			{
-																				    echo '<li>'.wp_get_attachment_image( $productImage, 'full' ).'
-																				    	  <div class="slider-caption">'.get_sub_field('product_caption').'</div>
-																				    	  </li>';
-																					$size = 'slider-thumb';
-																					$thumbshtml .= '<li><a data-slide-index="'.$imgcount.'" href="">'.wp_get_attachment_image( $productImage, 'slider-thumb' ).'</a></li>';	
-																					$imgcount += 1;																	
-																			} 
-																		?>
-																	
-								    							
-															<?php
-													    endwhile;
-														echo '</ul>';
+													 	echo '<div class="productmediacontainer">';
+														 	echo '<ul class="bxslider">';
+														    while ( have_rows('product_slides') ) : the_row();
+																?>
+																			<?php 
+																				$productImage = get_sub_field('product_image');
+																				
+																				if($productImage)
+																				{
+																					    echo '<li>'.wp_get_attachment_image( $productImage, 'full' ).'
+																					    	  <div class="slider-caption">'.get_sub_field('product_caption').'</div>
+																					    	  </li>';
+																						$size = 'slider-thumb';
+																						$thumbshtml .= '<li><a data-slide-index="'.$imgcount.'" href="">'.wp_get_attachment_image( $productImage, 'slider-thumb' ).'</a></li>';	
+																						$imgcount += 1;																	
+																				} 
+																			?>
+																		
+									    							
+																<?php
+														    endwhile;
+															echo '</ul>';
+															$system_kit = get_field('system_kit');
+															
+															if(isset($system_kit) && $system_kit == 1)
+															{
+																echo '<span class="system_kit">Includes Complete System Kit</span>';
+															}
+														echo '</div>';	
 														?>
 															<div id="bx-pager">
 															  <?php echo '<ul>'.$thumbshtml.'</ul>'; ?>
@@ -207,7 +215,9 @@ get_header(); ?>
 													else :
 													
 													  ?>
+													  <div class="productmediacontainer">
 														<img class="img-responsive imagecontent1" src="<?php the_field('product_image'); ?>">
+													  </div>	
 													<?php
 													endif;
 																			    				
