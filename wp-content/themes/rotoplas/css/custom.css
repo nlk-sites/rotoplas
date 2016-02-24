@@ -1070,6 +1070,7 @@ label, .container .gform_wrapper .top_label .gfield_label{
 	font-size: 21px;
 	line-height: 25px;
 	display: inline-block;
+	width: auto;
 }
 
 .tab-content h3{
