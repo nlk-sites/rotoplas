@@ -66,7 +66,17 @@ get_header(); ?>
 											<?php while ( $the_query2->have_posts() ) : $the_query2->the_post(); ?>
 												<div class="col-xs-12 col-sm-3 col-md-2 eachproduct">
 							                      <div class="producteachcontent">
-							                        <?php the_post_thumbnail('product-thumb', array('class' => 'img-responsive')) ?>
+							                        <div class="kitThumb">
+							                        	<?php 
+							                        		the_post_thumbnail('product-thumb', array('class' => 'img-responsive'));
+															
+															$system_kit = get_field('system_kit');
+															if(isset($system_kit) && $system_kit == 1)
+															{
+																echo '<span class="system_kit system_kit_small">Includes Complete System Kit</span>';
+															} 
+							                        	?>
+							                        </div>
 							                        <h2><?php the_title(); ?></h2>
 							                        <p><?php the_field('product_short_description'); ?></p>
 							                        <a href="<?php the_permalink(); ?>" class="btn productbutton" >View more</a>

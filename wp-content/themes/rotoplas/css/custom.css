@@ -2254,6 +2254,24 @@ table.spectable
 	text-indent: -9999px;
 }
 
+.kitThumb
+{
+	position: relative;	
+}
+
+.system_kit.system_kit_small
+{
+	position: absolute;
+	bottom: 15px;
+	right: -15px;
+	height: 49px;
+	width: 48px;
+	background: url('../images/system_kit_icon.png') 0 0 no-repeat transparent;	
+	text-indent: -9999px;
+	background-size: 48px 49px;
+}
+
+
 @media (min-width:768px) 
 {
 	.imagecontent1.topviewimg{
