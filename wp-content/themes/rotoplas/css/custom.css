@@ -2262,13 +2262,13 @@ table.spectable
 .system_kit.system_kit_small
 {
 	position: absolute;
-	bottom: 15px;
-	right: -15px;
-	height: 49px;
-	width: 48px;
-	background: url('../images/system_kit_icon.png') 0 0 no-repeat transparent;	
+	top: 55px;
+	right: -10px;
+	height: 65px;
+	width: 64px;
+	background: url('../images/system_kit_icon.png') 0 0 no-repeat transparent;
 	text-indent: -9999px;
-	background-size: 48px 49px;
+	background-size: 64px 64px;
 }
 
 
