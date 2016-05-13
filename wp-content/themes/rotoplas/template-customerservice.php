@@ -32,7 +32,8 @@ get_header(); ?>
                   <div class="col-xs-12 col-sm-5 col-md-5">
                       <img class="img-responsive maplocation" src="<?php bloginfo('template_url'); ?>/images/customermap.png">
                       <div class="address">
-                        <h3><small>Call</small>(209) 723 5000</h3>
+                        <h2><span>CALL</span>1-800-985-3417</h2>
+                        <h2>FAX - (209) 284 1294</h2>
                         <h4>2651 Cooper Ave</h4>
                         <h5>Merced, California</h5>
                       </div> 
