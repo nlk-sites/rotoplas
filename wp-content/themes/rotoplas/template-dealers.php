@@ -24,7 +24,7 @@ get_header(); ?>
               <div class="row">
                   <div class="col-xs-12 col-sm-8 col-md-8">
                     <div class="address">
-                        <h3><small>To find a dealer nearest you call</small>(209) 723 5000</h3>
+                        <h3><small>To find a dealer nearest you call</small> 1-800-985-3417 <small>Fax</small> (209)-284-1294 </h3>
                         <h4>2651 Cooper Ave</h4>
                         <h5>Merced, California</h5>
                       </div> 

@@ -31,7 +31,8 @@ get_header(); ?>
                   </div>
                   <div class="col-xs-12 col-sm-7 col-md-7">
                       <div class="contactaddress">
-                        <h2><span>CALL</span>(209) 723 5000</h2>
+                        <h2><span>CALL</span>1-800-985-3417</h2>
+                        <h2><span>FAX</span>(209) 284 1294</h2>
                         <h2>2651 Cooper Ave.</h2>
                         <h2>Merced, California</h2>
                       </div> 
