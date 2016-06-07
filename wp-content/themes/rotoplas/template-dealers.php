@@ -37,7 +37,7 @@ get_header(); ?>
                           <div class="dealers">
                             <h2>BRUCE HALLINAN<br><span class="title">Regional Sales Manager - CA</span></h2>
                             <p class="phone">(209) 205 0500</p>
-                            <p class="email"><a href="mailto: bhallinan@rotoplas.com">bhallinan@rotoplas.com</a></p>
+                            <p class="email"><a href="mailto:bhallinan@rotoplas.com">bhallinan@rotoplas.com</a></p>
                           </div>
                         </div>
                       </div> 
@@ -46,7 +46,16 @@ get_header(); ?>
                         <div class="col-xs-12">
                           <div class="dealers">
                             <h2>SEBASTIAN JAQUEZ<br><span class="title">General Manager</span></h2>
-                            <p class="email"><a href="mailto: sjaquez@rotoplas.com">sjaquez@rotoplas.com</a></p>
+                            <p class="email"><a href="mailto:sjaquez@rotoplas.com">sjaquez@rotoplas.com</a></p>
+                          </div>
+                        </div> 
+                      </div>
+                      <div class="row">   
+                        <div class="col-xs-12">
+                          <div class="dealers">
+                            <h2>JOEL SCHEIBLE<br><span class="title">Territory Manager - TX</span></h2>
+                            <p class="phone">(210) 544-3334</p>
+                            <p class="email"><a href="mailto:jscheible@rotoplas.com">jscheible@rotoplas.com</a></p>
                           </div>
                         </div> 
                       </div>
@@ -55,7 +64,7 @@ get_header(); ?>
                           <div class="dealers">
                             <h2>DAVID WRIGHT<br><span class="title">Regional Sales Manager - GA</span></h2>
                             <p class="phone">(678) 206 7378</p>
-                            <p class="email"><a href="mailto: dwright@rotoplas.com">dwright@rotoplas.com</a></p>
+                            <p class="email"><a href="mailto:dwright@rotoplas.com">dwright@rotoplas.com</a></p>
                           </div>
                         </div> 
                       </div>
