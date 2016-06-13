@@ -13,6 +13,10 @@ get_header(); ?>
 				  controls: false
 			});
 		});
+		function goBack() {
+		    window.history.back();
+		    return false;
+		}
 	</script>
 	<section class="wrapper literaturecontent newproductcontent">
       <div class="container">
@@ -33,6 +37,11 @@ get_header(); ?>
 					  <!-- Tab panes -->
 					  <div class="tab-content">
 					    <div role="tabpanel" class="tab-pane active" id="overview">
+					    	<div class="row">
+					    		<div class="col-xs-12" style="margin-top: 15px;">
+					    			<a href="#" onclick="goBack()">&laquo; Back to Results</a>
+					    		</div>
+					    	</div>
 					    	<div class="row">
 					    		<div class="col-xs-12">
 					    			<div class="titlewithbtns">
